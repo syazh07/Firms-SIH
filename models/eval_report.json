@@ -1,0 +1,398 @@
+{
+  "rules": {
+    "n": 269791,
+    "accuracy": 0.9318,
+    "per_class": {
+      "industrial": {
+        "precision": 0.8176,
+        "recall": 0.9622,
+        "f1": 0.884,
+        "support": 46902
+      },
+      "natural": {
+        "precision": 0.9931,
+        "recall": 0.9294,
+        "f1": 0.9602,
+        "support": 221576
+      },
+      "other": {
+        "precision": 0.0456,
+        "recall": 0.2513,
+        "f1": 0.0772,
+        "support": 1313
+      }
+    },
+    "confusion": {
+      "rows_true": [
+        "industrial",
+        "natural",
+        "other"
+      ],
+      "cols_pred": [
+        "industrial",
+        "natural",
+        "other"
+      ],
+      "matrix": [
+        [
+          45127,
+          1359,
+          416
+        ],
+        [
+          9160,
+          205925,
+          6491
+        ],
+        [
+          909,
+          74,
+          330
+        ]
+      ]
+    },
+    "period": [
+      "2025-11-01",
+      "2025-12-31"
+    ],
+    "label_col": "label_rule",
+    "fine_class_vs_sp": {
+      "agricultural_burn": {
+        "industrial": 512,
+        "natural": 177101,
+        "other": 54
+      },
+      "gas_flare": {
+        "industrial": 4211,
+        "natural": 860,
+        "other": 366
+      },
+      "industrial_fire": {
+        "industrial": 30,
+        "natural": 144,
+        "other": 0
+      },
+      "industrial_persistent": {
+        "industrial": 22301,
+        "natural": 4141,
+        "other": 396
+      },
+      "mining_thermal": {
+        "industrial": 18615,
+        "natural": 4159,
+        "other": 147
+      },
+      "offshore_other": {
+        "industrial": 416,
+        "natural": 6163,
+        "other": 77
+      },
+      "volcano": {
+        "industrial": 0,
+        "natural": 328,
+        "other": 253
+      },
+      "wildfire": {
+        "industrial": 817,
+        "natural": 28680,
+        "other": 20
+      }
+    }
+  },
+  "rules_holdout": {
+    "n": 1497284,
+    "accuracy": 0.9726,
+    "per_class": {
+      "industrial": {
+        "precision": 0.7984,
+        "recall": 0.9858,
+        "f1": 0.8822,
+        "support": 92308
+      },
+      "natural": {
+        "precision": 0.9989,
+        "recall": 0.9735,
+        "f1": 0.9861,
+        "support": 1402084
+      },
+      "other": {
+        "precision": 0.0195,
+        "recall": 0.1141,
+        "f1": 0.0333,
+        "support": 2892
+      }
+    },
+    "confusion": {
+      "rows_true": [
+        "industrial",
+        "natural",
+        "other"
+      ],
+      "cols_pred": [
+        "industrial",
+        "natural",
+        "other"
+      ],
+      "matrix": [
+        [
+          90997,
+          953,
+          358
+        ],
+        [
+          20914,
+          1364946,
+          16224
+        ],
+        [
+          2070,
+          492,
+          330
+        ]
+      ]
+    },
+    "period": [
+      "2026-01-01",
+      "2026-05-31"
+    ],
+    "label_col": "label_rule",
+    "fine_class_vs_sp": {
+      "agricultural_burn": {
+        "industrial": 327,
+        "natural": 511077,
+        "other": 228
+      },
+      "gas_flare": {
+        "industrial": 7772,
+        "natural": 1988,
+        "other": 1100
+      },
+      "industrial_fire": {
+        "industrial": 1,
+        "natural": 419,
+        "other": 1
+      },
+      "industrial_persistent": {
+        "industrial": 44076,
+        "natural": 8323,
+        "other": 676
+      },
+      "mining_thermal": {
+        "industrial": 39149,
+        "natural": 10603,
+        "other": 294
+      },
+      "offshore_other": {
+        "industrial": 358,
+        "natural": 16195,
+        "other": 330
+      },
+      "volcano": {
+        "industrial": 0,
+        "natural": 29,
+        "other": 0
+      },
+      "wildfire": {
+        "industrial": 625,
+        "natural": 853450,
+        "other": 263
+      }
+    }
+  },
+  "ml": {
+    "train_rows": 268478,
+    "test_rows": 1494392,
+    "test": {
+      "n": 1494392,
+      "accuracy": 0.9824,
+      "per_class": {
+        "industrial": {
+          "precision": 0.788,
+          "recall": 0.9781,
+          "f1": 0.8728,
+          "support": 92308
+        },
+        "natural": {
+          "precision": 0.9985,
+          "recall": 0.9827,
+          "f1": 0.9905,
+          "support": 1402084
+        },
+        "other": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "confusion": {
+        "rows_true": [
+          "industrial",
+          "natural",
+          "other"
+        ],
+        "cols_pred": [
+          "industrial",
+          "natural",
+          "other"
+        ],
+        "matrix": [
+          [
+            90282,
+            2026,
+            0
+          ],
+          [
+            24288,
+            1377796,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "period": [
+        "2026-01-01",
+        "2026-05-31"
+      ]
+    },
+    "rules_on_test_rows": {
+      "n": 1494392,
+      "accuracy": 0.9743,
+      "per_class": {
+        "industrial": {
+          "precision": 0.8131,
+          "recall": 0.9858,
+          "f1": 0.8912,
+          "support": 92308
+        },
+        "natural": {
+          "precision": 0.9993,
+          "recall": 0.9735,
+          "f1": 0.9862,
+          "support": 1402084
+        },
+        "other": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "confusion": {
+        "rows_true": [
+          "industrial",
+          "natural",
+          "other"
+        ],
+        "cols_pred": [
+          "industrial",
+          "natural",
+          "other"
+        ],
+        "matrix": [
+          [
+            90997,
+            953,
+            358
+          ],
+          [
+            20914,
+            1364946,
+            16224
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "feature_importance": {
+      "bt": -0.0018,
+      "bt2": -0.0007,
+      "frp": -0.0,
+      "conf_norm": 0.0001,
+      "is_night": -0.002,
+      "scan": -0.0001,
+      "track": -0.0,
+      "n_days_30": 0.0001,
+      "n_days_90": 0.0387,
+      "n_det_90": 0.0007,
+      "night_frac_90": 0.0284,
+      "frp_mean_90": 0.0046,
+      "frp_max_90": 0.0006,
+      "bt_mean_90": -0.0022,
+      "recurrence_90": -0.0014,
+      "frp_ratio": -0.0,
+      "in_site": -0.0,
+      "dist_site_m": 0.0013,
+      "landcover_code": 0.0005,
+      "site_days_90": 0.0007,
+      "days_90_eff": 0.0103
+    }
+  },
+  "combined_holdout": {
+    "n": 1497284,
+    "accuracy": 0.9729,
+    "per_class": {
+      "industrial": {
+        "precision": 0.8105,
+        "recall": 0.9786,
+        "f1": 0.8866,
+        "support": 92308
+      },
+      "natural": {
+        "precision": 0.9986,
+        "recall": 0.9743,
+        "f1": 0.9863,
+        "support": 1402084
+      },
+      "other": {
+        "precision": 0.0223,
+        "recall": 0.1383,
+        "f1": 0.0384,
+        "support": 2892
+      }
+    },
+    "confusion": {
+      "rows_true": [
+        "industrial",
+        "natural",
+        "other"
+      ],
+      "cols_pred": [
+        "industrial",
+        "natural",
+        "other"
+      ],
+      "matrix": [
+        [
+          90328,
+          1360,
+          620
+        ],
+        [
+          19138,
+          1366026,
+          16920
+        ],
+        [
+          1982,
+          510,
+          400
+        ]
+      ]
+    },
+    "period": [
+      "2026-01-01",
+      "2026-05-31"
+    ],
+    "label_col": "label_final",
+    "veto_rate": 0.0017
+  }
+}

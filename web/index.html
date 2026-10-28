@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FRIMS — Industrial Fire &amp; Persistent Thermal Source Monitor</title>
+<link rel="stylesheet" href="vendor/leaflet.css">
+<link rel="stylesheet" href="vendor/MarkerCluster.css">
+<link rel="stylesheet" href="vendor/MarkerCluster.Default.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">🔥</span>
+    <div>
+      <h1>FRIMS <span class="region">INDIA</span></h1>
+      <p>Industrial Fire &amp; Persistent Thermal Source Monitor · NASA FIRMS + OSM + ESA WorldCover</p>
+    </div>
+  </div>
+  <div class="topstats" id="topstats">loading…</div>
+</header>
+
+<div id="map"></div>
+<div class="coords" id="coords">Lat —, Lon —</div>
+
+<aside class="panel" id="panel">
+  <div class="panel-head">
+    <h2>LAYERS</h2>
+    <button id="toggle-panel" title="collapse">✕</button>
+  </div>
+
+  <section>
+    <div class="row">
+      <label>Dataset <select id="dataset"></select></label>
+      <span class="small" id="dsinfo"></span>
+    </div>
+    <div class="timebar">
+      <button class="tbtn" data-days="1">24H</button>
+      <button class="tbtn active" data-days="7">7 DAYS</button>
+      <button class="tbtn" data-days="30">30 DAYS</button>
+      <button class="tbtn" data-days="90">90 DAYS</button>
+    </div>
+    <div class="row small"><span id="daterange">—</span></div>
+    <div class="row small"><label>Window end <input type="date" id="end-date"></label><button id="end-clear" class="small">latest</button></div>
+    <div class="row playback">
+      <button id="play" title="play daily">▶</button>
+      <input type="range" id="day-slider" min="0" max="0" value="0" step="1">
+      <span class="small" id="day-label">all days</span>
+    </div>
+  </section>
+
+  <section>
+    <h3>Classification <span class="hint">(rules + ML veto / rules / ML)</span></h3>
+    <div class="row">
+      <label class="switch"><input type="radio" name="label" value="label_final" checked> Combined</label>
+      <label class="switch"><input type="radio" name="label" value="label_rule"> Rules only</label>
+      <label class="switch"><input type="radio" name="label" value="label_ml"> ML only</label>
+    </div>
+    <ul class="legend" id="legend"></ul>
+  </section>
+
+  <section>
+    <h3>Sensors</h3>
+    <ul class="legend" id="sources"></ul>
+  </section>
+
+  <section>
+    <h3>Overlays</h3>
+    <ul class="legend">
+      <li><label><input type="checkbox" id="ov-sites"> Industrial sites &amp; footprints</label></li>
+      <li><label><input type="checkbox" id="ov-persistent" checked> Persistent thermal sources (≥10 d / 90 d)</label></li>
+      <li><label><input type="checkbox" id="ov-cluster" checked> Cluster dense detections</label></li>
+      <li><label><input type="checkbox" id="ov-night"> Night-time detections only</label></li>
+    </ul>
+    <div class="row">
+      <label>Basemap
+        <select id="basemap">
+          <option value="dark">Dark</option>
+          <option value="imagery" selected>Satellite imagery</option>
+          <option value="osm">OpenStreetMap</option>
+          <option value="offline">Offline vector (no internet)</option>
+        </select>
+      </label>
+    </div>
+  </section>
+
+  <section id="source-card" hidden>
+    <h3>Persistent source <span class="hint" id="src-title"></span></h3>
+    <div id="src-meta" class="small"></div>
+    <svg id="sparkline" viewBox="0 0 300 70" preserveAspectRatio="none"></svg>
+    <div class="small">daily max FRP (MW), last 90 d · bars = detections</div>
+  </section>
+
+  <section>
+    <h3>Alerts <span class="hint">industrial_fire events</span></h3>
+    <ol class="alerts" id="alerts"></ol>
+    <h3 style="margin-top:10px">Watch <span class="hint">unusual, below alert grade</span></h3>
+    <ol class="alerts" id="watch"></ol>
+  </section>
+
+  <section>
+    <h3>Incident check <span class="hint">reported events vs FRIMS</span></h3>
+    <div id="incidents" class="small">—</div>
+  </section>
+
+  <section>
+    <h3>Model <span class="hint">validation vs FIRMS SP ground truth</span></h3>
+    <div id="model" class="small">—</div>
+  </section>
+
+  <section class="foot">
+    <button id="refresh">⟳ Refresh from FIRMS</button>
+    <span id="refresh-status" class="small"></span>
+  </section>
+</aside>
+<button class="panel-open" id="panel-open" hidden>LAYERS</button>
+
+<script src="vendor/leaflet.js"></script>
+<script src="vendor/leaflet.markercluster.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

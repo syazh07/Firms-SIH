@@ -1,0 +1,1519 @@
+Fire data
+Filtered Geostationary GOES East (KCL/IPMA)
+Note: This layer is generally available for the most recent 10 days
+Non-NASA layer for filtered active fire detections from GOES-19 geostationary satellite (FRP-PIXEL Algorithm ).
+
+Geostationary satellites offer much higher temporal sampling than polar-orbiting systems, albeit at a much lower spatial resolution. They can provide repeated observations on a sub-hourly basis, making it possible to detect fires not detectable at longer temporal intervals. However, these data are considered provisional and should be carefully applied by users. Output data provided in FIRMS are filtered to reduce the presence of false positives as much as possible. Even with this filtering, some false detections do occur. In addition, geostationary coverage is limited at high latitudes, particularly because pixel size becomes significantly larger away from the sub-satellite point (see our FAQs #geospatial ).
+
+
+Satellite
+(Agency)	GOES-19
+(EUMETSAT - FRP Algorithm)
+Coverage	Americas East
+Instrument / Algorithm	Advanced Baseline Imager (ABI) 
+
+Fire Radiative Power (FRP-PIXEL) 
+Latency	~20-30 minutes
+Temporal Resolution
+(Detections)	every 10 mins
+Spatial resolution
+(pixel size of thermal bands)	2 km (at sub-satellite point)*
+*Please note: the pixel size systematically grows from the sub-satellite point towards the edge of the disk .
+Source	IPMA  under Copernicus Atmosphere Monitoring Service (CAMS )
+Please note: The FRP-PIXEL products are produced as part of the Copernicus Atmosphere Monitoring Service [CAMS ] using the algorithms and code of King's College London (https://wildfire.geog.kcl.ac.uk/ ) and run operationally at IPMA (https://www.ipma.pt/en/ )
+
+Filtered Geostationary GOES West (KCL/IPMA)
+Note: This layer is generally available for the most recent 10 days
+Non-NASA layer for filtered active fire detections from GOES-18 geostationary satellite (FRP-PIXEL Algorithm ).
+
+Geostationary satellites offer much higher temporal sampling than polar-orbiting systems, albeit at a much lower spatial resolution. They can provide repeated observations on a sub-hourly basis, making it possible to detect fires not detectable at longer temporal intervals. However, these data are considered provisional and should be carefully applied by users. Output data provided in FIRMS are filtered to reduce the presence of false positives as much as possible. Even with this filtering, some false detections do occur. In addition, geostationary coverage is limited at high latitudes, particularly because pixel size becomes significantly larger away from the sub-satellite point (see our FAQs #geospatial ).
+
+
+Satellite
+(Agency)	GOES-18
+(EUMETSAT - FRP Algorithm)
+Coverage	Americas West
+Instrument / Algorithm	Advanced Baseline Imager (ABI) 
+
+Fire Radiative Power (FRP-PIXEL) 
+Latency	~20-30 minutes
+Temporal Resolution
+(Detections)	every 10 mins
+Spatial resolution
+(pixel size of thermal bands)	2 km (at sub-satellite point)*
+*Please note: the pixel size systematically grows from the sub-satellite point towards the edge of the disk .
+Source	IPMA  under Copernicus Atmosphere Monitoring Service (CAMS )
+Please note: The FRP-PIXEL products are produced as part of the Copernicus Atmosphere Monitoring Service [CAMS ] using the algorithms and code of King's College London (https://wildfire.geog.kcl.ac.uk/ ) and run operationally at IPMA (https://www.ipma.pt/en/ )
+
+Filtered Geostationary Himawari-9 (KCL/IPMA)
+Note: This layer is generally available for the most recent 10 days
+Non-NASA layer for filtered active fire detections from Himawari-9 geostationary satellite (FRP-PIXEL Algorithm ).
+
+Geostationary satellites offer much higher temporal sampling than polar-orbiting systems, albeit at a much lower spatial resolution. They can provide repeated observations on a sub-hourly basis, making it possible to detect fires not detectable at longer temporal intervals. However, these data are considered provisional and should be carefully applied by users. Output data provided in FIRMS are filtered to reduce the presence of false positives as much as possible. Even with this filtering, some false detections do occur. In addition, geostationary coverage is limited at high latitudes, particularly because pixel size becomes significantly larger away from the sub-satellite point (see our FAQs #geospatial ).
+
+
+Satellite
+(Agency)	Himawari-9
+(JAXA)
+Coverage	Asia and Australia
+Instrument / Algorithm	Advanced Himawari Imager (AHI) 
+
+Fire Radiative Power (FRP-PIXEL) 
+Latency	~30 minutes
+Temporal Resolution
+(Detections)	every 10 mins
+Spatial resolution
+(pixel size of thermal bands)	2 km (at sub-satellite point)*
+*Please note: the pixel size systematically grows from the sub-satellite point towards the edge of the disk .
+Source	IPMA  under Copernicus Atmosphere Monitoring Service (CAMS )
+Please note: The FRP-PIXEL products are produced as part of the Copernicus Atmosphere Monitoring Service [CAMS ] using the algorithms and code of King's College London (https://wildfire.geog.kcl.ac.uk/ ) and run operationally at IPMA (https://www.ipma.pt/en/ )
+
+Filtered Geostationary MSG IODC (KCL/LSA SAF)
+Note: This layer is generally available for the most recent 10 days
+Non-NASA layer for filtered active fire detections from Meteosat-9 SEVIRI geostationary satellite (FRP-PIXEL Algorithm ).
+
+Geostationary satellites offer much higher temporal sampling than polar-orbiting systems, albeit at a much lower spatial resolution. They can provide repeated observations on a sub-hourly basis, making it possible to detect fires not detectable at longer temporal intervals. However, these data are considered provisional and should be carefully applied by users. Output data provided in FIRMS are filtered to reduce the presence of false positives as much as possible. Even with this filtering, some false detections do occur. In addition, geostationary coverage is limited at high latitudes, particularly because pixel size becomes significantly larger away from the sub-satellite point (see our FAQs #geospatial ).
+
+EUMETSAT Operational Service Status Indicator 
+
+
+Satellite
+(Agency)	Meteosat-9 SEVIRI
+(EUMETSAT)
+Coverage	Europe and Africa
+Instrument / Algorithm	Spinning Enhanced Visible and Infra-Red Imager (SEVIRI) 
+
+Fire Radiative Power (FRP-PIXEL) 
+Latency	~30 minutes
+Temporal Resolution
+(Detections)	every 15 mins
+Spatial resolution
+(pixel size of thermal bands)	3 km (at sub-satellite point)*
+*Please note: the pixel size systematically grows from the sub-satellite point towards the edge of the disk .
+Source	EUMETSAT Satellite Application Facility on Land Surface Analysis [LandSAF ]
+Please note: All FRP-PIXEL products from Meteosat are produced as part of the EUMETSAT Land Surface Analysis Applications Facility (https://landsaf.ipma.pt/en/ ) using the algorithms and code of King's College London (https://wildfire.geog.kcl.ac.uk/ ) run operationally at IPMA (https://www.ipma.pt/en/ ).
+
+Filtered Geostationary MSG 0 deg (KCL/LSA SAF)
+Note: This layer is generally available for the most recent 10 days
+Non-NASA layer for filtered active fire detections from Meteosat-10 SEVIRI geostationary satellite (FRP-PIXEL Algorithm ).
+
+Geostationary satellites offer much higher temporal sampling than polar-orbiting systems, albeit at a much lower spatial resolution. They can provide repeated observations on a sub-hourly basis, making it possible to detect fires not detectable at longer temporal intervals. However, these data are considered provisional and should be carefully applied by users. Output data provided in FIRMS are filtered to reduce the presence of false positives as much as possible. Even with this filtering, some false detections do occur. In addition, geostationary coverage is limited at high latitudes, particularly because pixel size becomes significantly larger away from the sub-satellite point (see our FAQs #geospatial ).
+
+EUMETSAT Operational Service Status Indicator 
+
+
+Satellite
+(Agency)	Meteosat-10 SEVIRI
+(EUMETSAT)
+Coverage	Europe and Africa
+Instrument / Algorithm	Spinning Enhanced Visible and Infra-Red Imager (SEVIRI) 
+
+Fire Radiative Power (FRP-PIXEL) 
+Latency	~30 minutes
+Temporal Resolution
+(Detections)	every 15 mins
+Spatial resolution
+(pixel size of thermal bands)	3 km (at sub-satellite point)*
+*Please note: the pixel size systematically grows from the sub-satellite point towards the edge of the disk .
+Source	EUMETSAT Satellite Application Facility on Land Surface Analysis [LandSAF ]
+Please note: All FRP-PIXEL products from Meteosat are produced as part of the EUMETSAT Land Surface Analysis Applications Facility (https://landsaf.ipma.pt/en/ ) using the algorithms and code of King's College London (https://wildfire.geog.kcl.ac.uk/ ) run operationally at IPMA (https://www.ipma.pt/en/ ).
+
+Filtered Geostationary MTG 0 deg Full Disk
+Note: This layer is generally available for the most recent 10 days
+Non-NASA layer for filtered active fire detections from Meteosat-12 FCI geostationary satellite (FRP-PIXEL Algorithm ).
+
+Geostationary satellites offer much higher temporal sampling than polar-orbiting systems, albeit at a much lower spatial resolution. However, unlike Meteosat Second Generation (MSG) which have a resolution of 3km at sub-nadir, Meteosat Third Generation (MTG) has a 1km resolution at sub-nadir. Geostationary satellites can provide repeated observations on a sub-hourly basis, making it possible to detect fires not detectable at longer temporal intervals. The MTG data are considered provisional and should be carefully applied by users. Output data provided in FIRMS are filtered to reduce the presence of false positives as much as possible. In the case f MTG-I: FRP values less than 10 MW are excluded and detections where the View Zenith Angle (VZA) > 60° are also excluded. Even with this filtering, some false detections do occur. In addition, geostationary coverage is limited at high latitudes, particularly because pixel size becomes significantly larger away from the sub-satellite point (see our FAQs #geospatial ).
+
+EUMETSAT Operational Service Status Indicator 
+
+MTG Product User's Manuals 
+
+
+Satellite
+(Agency)	Meteosat-12 FCI
+(EUMETSAT)
+Coverage	Europe and Africa
+Instrument / Algorithm	Flexible Combined Imager (FCI) 
+
+Fire Radiative Power (FRP-PIXEL) 
+Latency	~20 minutes
+Temporal Resolution
+(Detections)	every 10 mins
+Spatial resolution
+(pixel size of thermal bands)	1 km (at sub-satellite point)* *Please note: the pixel size systematically grows from the sub-satellite point towards the edge of the disk.
+Source	EUMETSAT Satellite Application Facility on Land Surface Analysis [LandSAF ]
+Please note: All FRP-PIXEL products from Meteosat are produced as part of the EUMETSAT Land Surface Analysis Applications Facility (https://landsaf.ipma.pt/en/ ) using the algorithms and code of King's College London (https://wildfire.geog.kcl.ac.uk/ ) run operationally at IPMA (https://www.ipma.pt/en/ ).
+
+Filtered Geostationary GOES East (NOAA FDC)
+Note: This layer is generally available for the most recent 10 days
+Non-NASA layer for filtered active fire detections from GOES-19 geostationary satellite (NOAA FDC Algorithm).
+
+Geostationary satellites offer much higher temporal sampling than polar-orbiting systems, albeit at a much lower spatial resolution. They can provide repeated observations on a sub-hourly basis, making it possible to detect fires not detectable at longer temporal intervals. However, these data are considered provisional and should be carefully applied by users. Refinements to the GOES Fire Detection and Characterization (FDC) algorithm are ongoing. Output data provided in FIRMS are filtered to reduce the presence of false positives as much as possible. Even with this filtering, some false detections do occur. In addition, geostationary coverage is limited at high latitudes, particularly because pixel size becomes significantly larger away from the sub-satellite point (see our FAQs #geospatial ).
+
+
+Satellite
+(Agency)	GOES-19
+(NOAA - FDC Algorithm)
+Coverage	Americas East
+Instrument / Algorithm	Advanced Baseline Imager (ABI) 
+
+Fire Detection and Characterization-Hot Spot Characterization (FDC-HSC) 
+Latency	~20-30 minutes
+Temporal Resolution
+(Detections)	every 10 mins
+Spatial resolution
+(pixel size of thermal bands)	2 km (at sub-satellite point)*
+*Please note: the pixel size systematically grows from the sub-satellite point towards the edge of the disk .
+Source	NOAA Comprehensive Large Array-data Stewardship System [CLASS ]
+Filtered Geostationary GOES West (NOAA FDC)
+Note: This layer is generally available for the most recent 10 days
+Non-NASA layer for filtered active fire detections from GOES-18 geostationary satellite (NOAA FDC Algorithm).
+
+Geostationary satellites offer much higher temporal sampling than polar-orbiting systems, albeit at a much lower spatial resolution. They can provide repeated observations on a sub-hourly basis, making it possible to detect fires not detectable at longer temporal intervals. However, these data are considered provisional and should be carefully applied by users. Refinements to the GOES Fire Detection and Characterization (FDC) algorithm are ongoing. Output data provided in FIRMS are filtered to reduce the presence of false positives as much as possible. Even with this filtering, some false detections do occur. In addition, geostationary coverage is limited at high latitudes, particularly because pixel size becomes significantly larger away from the sub-satellite point (see our FAQs #geospatial ).
+
+
+Satellite
+(Agency)	GOES-18
+(NOAA - FDC Algorithm)
+Coverage	Americas West
+Instrument / Algorithm	Advanced Baseline Imager (ABI) 
+
+Fire Detection and Characterization-Hot Spot Characterization (FDC-HSC) 
+Latency	~20-30 minutes
+Temporal Resolution
+(Detections)	every 10 mins
+Spatial resolution
+(pixel size of thermal bands)	2 km (at sub-satellite point)*
+*Please note: the pixel size systematically grows from the sub-satellite point towards the edge of the disk .
+Source	NOAA Comprehensive Large Array-data Stewardship System [CLASS ]
+Gridded Fire Hotspots
+Temporal coverage: November 2000 - present
+Provides count of fire hotposts within 0.25x0.25 degree grid size for MODIS (Aqua and Terra) and VIIRS (S-NPP and NOAA-20).
+
+
+LANDSAT OLI (8 & 9) Fire and Thermal Anomalies (Day | Night, 30 meters)
+Temporal Coverage: 20 June 2022 - present
+Latency - defined as time since satellite observation and the data being available in FIRMS:
+within 30-60 minutes for the continental US (CONUS), southern Canada and northern Mexico.
+
+The Landsat 8 & 9 Active Fire and Thermal Anomalies product, generated from the Landsat Operational Land Imager (OLI) shows active fire detections and thermal anomalies, such as volcanoes, and gas flares. The fire layer is useful for studying the spatial and temporal distribution of fire, to locate persistent hot spots such as volcanoes and gas flares, and to locate the source of air pollution from smoke that may have adverse human health impacts.
+
+Landsat OLI and its predecessors, the Landsat 4-5 Thematic Mapper (TM) and the Landsat 7 Enhanced Thematic Mapper Plus (ETM+), have provided multispectral observations and Earth science data products since 1982. The 30-m data provide spatially refined active fire detection data relative to MODIS and VIIRS (a 30-m pixel is approximately 0.001 of the area of a 1-km MODIS pixel and approximately 0.0625 of the area of a VIIRS 375-m pixel). The underlying fire layer algorithm and the spatial/spectral resolution of the sensor provide the ability to detect very small fires compared to MODIS, VIIRS and other relatively coarse spatial resolution sensors with relatively improved nighttime performance. Flaming fires as small as ∼4m2 and ∼1m2 have a greater than 50% probability of detection during daytime and nighttime observations, respectively. Consequently, Landsat active fire detection data can provide limited tactical scale data in support of fire management as well as other science applications requiring improved fire mapping fidelity.
+
+The Landsat Active Fire and Thermal Anomalies product is available from the joint NASA/USGS OLI sensors onboard Landsat 8 and Landsat 9 satellites. The sensor resolution is 30 m, however, with the relatively narrow swath width of 185 km, each sensor provides complete coverage of the Earth every 16 days. With the orbit of the two satellites being 8 days out of phase, the combined temporal resolution between the two sensors is once every 8 days in the mid-latitudes. The thermal anomalies are represented in FIRMS as red pixels (approximate center of a 30-m pixel). The nominal (equator-crossing) observation time for Landsat 8 and 9 is 10:00 am and 10:00 pm mean local time ±15 minutes in their respective orbits. As a result of ad-hoc nighttime Landsat 8/9 OLI taskings, temporal resolution better than 8 days in the mid-latitudes is occasionally possible.
+
+Attributes:
+
+Attribute	Short Description	Long Description
+Satellite	Satellite	L8 = Landsat 8; L9 = Landsat 9
+Latitude	Latitude (decimal degrees)	Latitude of pixel center.
+Longitude	Longitude (decimal degrees)	Longitude of pixel center.
+Path	Path	Path number as identified in the World Reference System-2 (WRS-2)
+Row	Row	World Reference System as identified in the World Reference System-2 (WRS-2)
+Track	Track	The pixel location in the along-track dimension of the Landsat path based on the OLI Line-of-Sight (LOS) coordinate system. Generally increases in value from north to south for daytime and nighttime overpasses.
+Scan	Scan	The pixel location in the cross-track dimension of the Landsat path based on the OLI Line-of-Sight (LOS) coordinate system. Generally increases in value from west to east for daytime and nighttime overpasses.
+Acquire_Time	Date and time of start of scan	Date and time of acquisition/overpass of the satellite (in UTC). The format is YYYY-MM-DD followed by HH:MM-SS. For example, 2022-07-23 10:09:00.
+Confidence	Confidence	Value domain: H, M and L:
+H: Higher confidence
+M: Medium confidence
+L: Lower confidence
+Version	Version (FIRMS reference only)	1.0.7 NRT
+DayNight	Day or Night	D = Daytime fire, N = Nighttime fire
+Product Information:
+
+Coverage	CONUS, southern Canada and northern Mexico
+Instrument/Algorithm	Operational Land Imager (OLI)  / Landsat Fire and Thermal Anomalies
+Latency	∼30 minutes
+Temporal Resolution	16 days
+(each instrument; daytime observations)
+Spatial resolution	30 meters
+Source	NASA, University of Maryland, USGS EROS Data Center
+MODIS (Aqua & Terra) Fire and Thermal Anomalies (Day | Night, 1km)
+Aqua Temporal Coverage: 3 July 2002 - present
+Terra Temporal Coverage: 1 November 2000 - present
+Latency - defined as time since satellite observation and the data being available in FIRMS:
+within 3 hours for global data and
+within 1-30 minutes for ultra and real-time in the US and Canada (see 'version' in attribute table below).
+
+The MODIS Fire and Thermal Anomalies layer shows active fire detections and thermal anomalies, such as volcanoes, and gas flares. Fires can be set naturally, such as by lightning, or by humans, whether intentionally or accidentally. The fire layer is useful for studying the spatial and temporal distribution of fire, to locate persistent hot spots such as volcanoes and gas flares, to locate the source of air pollution from smoke that may have adverse human health impacts.
+
+The MODIS Fire and Thermal Anomalies product is available from the Terra (MOD14) and Aqua (MYD14) satellites as well as a combined Terra and Aqua (MCD14) satellite product. The sensor resolution is 1 km, and the temporal resolution is daily. The thermal anomalies are represented as red points (approximate center of a 1 km pixel). Terra's orbit around the Earth is timed so that it passes from north to south across the equator in the morning, while Aqua passes south to north over the equator in the afternoon.
+
+
+Attributes:
+
+Attribute	Short Description	Long Description
+Latitude	Latitude	Center of 1 km fire pixel, but not necessarily the actual location of the fire as one or more fires can be detected within the 1 km pixel.
+Longitude	Longitude	Center of 1 km fire pixel, but not necessarily the actual location of the fire as one or more fires can be detected within the 1 km pixel.
+Brightness	Brightness temperature 21 (Kelvin)	Channel 21/22 brightness temperature of the fire pixel measured in Kelvin.
+Scan	Along Scan pixel size	The algorithm produces 1 km fire pixels, but MODIS pixels get bigger toward the edge of scan. Scan and track reflect actual pixel size.
+Track	Along Track pixel size	The algorithm produces 1 km fire pixels, but MODIS pixels get bigger toward the edge of scan. Scan and track reflect actual pixel size.
+Acq_Date	Acquisition Date	Data of MODIS acquisition.
+Acq_Time	Acquisition Time	Time of acquisition/overpass of the satellite (in UTC).
+Satellite	Satellite	A = Aqua and T = Terra.
+Confidence	Confidence (0-100%)	This value is based on a collection of intermediate algorithm quantities used in the detection process. It is intended to help users gauge the quality of individual hotspot/fire pixels. Confidence estimates range between 0 and 100% and are assigned one of the three fire classes (low-confidence fire, nominal-confidence fire, or high-confidence fire).
+Version	Version (Collection and source)	
+Version identifies the collection (e.g., MODIS Collection 6.1) and source of data processing (Ultra Real-Time (URT suffix added to collection), Real-Time (RT suffix), Near Real-Time (NRT suffix) or Standard Processing (collection only). For example:
+
+"6.1URT" - Collection 6.1 Ultra Real-Time processing.
+"6.1RT" -  Collection 6.1 Real-Time processing.
+"6.1NRT" - Collection 61 Near Real-Time processing.
+"6.1" - Collection 61 Standard processing.
+Find out more on collections  and on the differences between FIRMS data sourced from LANCE FIRMS and the University of Maryland .
+
+Bright_T31	Brightness temperature 31 (Kelvin)	Channel 31 brightness temperature of the fire pixel measured in Kelvin.
+FRP	Fire Radiative Power (MW - megawatts)	Depicts the pixel-integrated fire radiative power in MW (megawatts).
+Type*	Inferred hot spot type	0 = presumed vegetation fire
+1 = active volcano
+2 = other static land source
+3 = offshore
+DayNight	Day or Night	D= Daytime fire, N= Nighttime fire
+Type* = This attribute is only available for MCD14DL (standard quality) data
+
+more details 
+
+MODIS (Aqua & Terra) Global Burned Area Product (MCD64A1)
+Temporal coverage: November 2000 - present
+Burned areas are characterized by deposits of charcoal and ash, removal of vegetation, and alteration of the vegetation structure. The MODIS burned area mapping algorithm takes advantage of these spectral, temporal, and structural changes. It detects the approximate date of burning at a spatial resolution of 500 m by locating the occurrence of rapid changes in daily surface reflectance time series data. The algorithm maps the spatial extent of recent fires and not of fires that occurred in previous seasons or years.
+
+The latest version (Collection 6.1) of the MODIS Global Burned Area Product is identical in format to the previous Collection 6 product; no changes were made to the science algorithm. Any improvement or change in the C61 product compared to the product from the prior major collection reprocessing (C6) is from changes and enhancements to the calibration approach used in generation of the Terra and Aqua MODIS L1B products and changes to the polarization correction used in this collection reprocessing. For further details on C61 calibration changes and other changes user is encouraged to refer to the Collection 6.1 specific changes that have been summarized here: MODIS Land C61 Changes
+
+Please see the MODIS Burned Area Product User's Guide  for detailed information about the MODIS burned area product suite.
+
+
+VIIRS SNPP Global Burned Area Product (VNP64A1)
+Temporal coverage: March 2012 - present
+Burned areas are characterized by deposits of charcoal and ash, removal of vegetation, and alteration of the vegetation structure. The VIIRS burned area mapping algorithm takes advantage of these spectral, temporal, and structural changes. It detects the approximate date of burning at a spatial resolution of 500 m by identifying rapid changes in daily surface reflectance time series data. The algorithm maps the spatial extent of recent fires and does not capture fires that occurred in previous seasons or years.
+
+The VIIRS Global Burned Area Product (VNP64A1) Collection 2 was developed to ensure continuity with the MODIS burned area record. The monthly product format is identical to that of the MODIS MCD64A1 Collection 6.1 burned area product and is derived using an adaptation of the MCD64A1 C6.1 algorithm. Although the native spatial resolution of the VIIRS input bands is coarser than those from MODIS, the VNP64A1 product is produced at 500 m resolution on the same sinusoidal grid and in the same HDF4 format used for standard MODIS products. The current version is generated using data from the Suomi NPP VIIRS sensor. A future release, as part of Collection 3, is planned to incorporate observations from both Suomi NPP and NOAA-20 VIIRS sensors. The latency of VNP64A1 products is approximately 2-3 months.
+
+Please see the VIIRS Burned Area Product User's Guide  for detailed information about the VIIRS burned area product suite.
+
+VIIRS (Suomi NPP, NOAA-20 and NOAA-21) Fires and Thermal Anomalies (Day | Night, 375m)
+VIIRS S-NPP Temporal Coverage: 20 January 2012 - present
+VIIRS NOAA-20 Temporal Coverage: 1 January 2020 - present
+VIIRS NOAA-21 Temporal Coverage: 17 January 2024 - present
+Latency - defined as time since satellite observation and the data being available in FIRMS:
+within 3 hours for global data and
+within 1-30 minutes for ultra and real-time in the US and Canada (see 'version' in attribute table below).
+
+The VIIRS (Visible Infrared Imaging Radiometer Suite) Fire layer shows active fire detections and thermal anomalies, such as volcanoes, and gas flares. The fire layer is useful for studying the spatial and temporal distribution of fire, to locate persistent hot spots such as volcanoes and gas flares, to locate the source of air pollution from smoke that may have adverse human health impacts.
+
+VIIRS is the successor to MODIS for Earth science data product generation. The 375m I-band data complements the MODIS fire detections; they both show good agreement in hotspot detection but the improved spatial resolution of the 375m data provides a greater response over fires of relatively small areas and provides improved mapping of large fire perimeters. The 375m data also has improved nighttime performance. Consequently, these data are well suited for use in support of fire management (e.g., near real-time alert systems), as well as other science applications requiring improved fire mapping fidelity.
+
+The VIIRS Fire and Thermal Anomalies product is available from the joint NASA/NOAA Suomi-National Polar orbiting Partnership (S-NPP), NOAA-20 (JPSS-1) and NOAA-21 (JPSS-2) satellites. The sensor resolution is 375 m, imagery resolution is 250 m, and the temporal resolution is twice daily. The thermal anomalies are represented as red points (approximate center of a 375m pixel). The nominal (equator-crossing) observation times for VIIRS S-NPP are 1:30pm and 1:30am. The orbit of NOAA-21 is about 50 minutes ahead of NOAA-20 with S-NPP orbiting between them. Consequently, all three sensors conduct observations within approximately 1 hour of one another. Thanks to its polar orbit, mid-latitudes will experience 3-4 looks a day.
+
+
+Attributes:
+
+Attribute
+Short Description
+Long Description
+Latitude	Latitude	Center of nominal 375 m fire pixel.
+Longitude	Longitude	Center of nominal 375 m fire pixel.
+Bright_ti4 / Brightness (in web services)	Brightness temperature I-4	VIIRS I-4 channel brightness temperature of the fire pixel measured in Kelvin.
+Scan	Along Scan pixel size	The algorithm produces approximately 375 m pixels at nadir. Scan and track reflect actual pixel size.
+Track	Along Track pixel size	The algorithm produces approximately 375 m pixels at nadir. Scan and track reflect actual pixel size.
+Acq_Date	Acquisition Date	Date of VIIRS acquisition.
+Acq_Time	Acquisition Time	Time of acquisition/overpass of the satellite (in UTC).
+Satellite	Satellite	N = Suomi National Polar-orbiting Partnership (Suomi NPP).
+N20 = NOAA-20 (JPSS1).
+N21 = NOAA-21 (JPSS2).
+Confidence	Confidence	
+This value is based on a collection of intermediate algorithm quantities used in the detection process. It is intended to help users gauge the quality of individual hotspot/fire pixels. Confidence values are set to low (l), nominal (n), and high (h). Low (l) confidence daytime fire pixels are typically associated with areas of Sun glint and lower relative temperature anomaly (<15 K) in the mid-infrared channel I4. Nominal (n) confidence pixels are those free of potential Sun glint contamination during the day and marked by strong (>15 K) temperature anomaly in either day or nighttime data. High (h) confidence fire pixels are associated with day or nighttime saturated pixels.
+
+Please note: Low confidence nighttime pixels occur only over the geographic area extending from 11° E to 110° W and 7° N to 55° S. This area describes the region of influence of the South Atlantic Magnetic Anomaly which can cause spurious brightness temperatures in the mid-infrared channel I4 leading to potential false positive alarms. These have been removed from the NRT data distributed by FIRMS.
+
+Version	Version (collection and source)	
+Version identifies the collection (e.g., VIIRS Collection 1 or VIIRS Collection 2), and source of data processing (Ultra Real-Time (URT suffix added to collection), Real-Time (RT suffix), Near Real-Time (NRT suffix) or Standard Processing (collection only). For example:
+
+"2.0URT" - Collection 2 Ultra Real-Time processing.
+"2.0RT" - Collection 2 Real-Time processing.
+"1.0NRT" - Collection 1 Near Real-Time processing.
+"1.0" - Collection 1 Standard processing.
+
+Bright_ti5 / Brightness_2 (in web services)	Brightness temperature I-5	I-5 Channel brightness temperature of the fire pixel measured in Kelvin.
+FRP	Fire Radiative Power	
+FRP depicts the pixel-integrated fire radiative power in megawatts (MW). Given the unique spatial and spectral resolution of the data, the VIIRS 375 m fire detection algorithm was customized and tuned to optimize its response over small fires while balancing the occurrence of false alarms. Frequent saturation of the mid-infrared I4 channel (3.55-3.93 µm) driving the detection of active fires requires additional tests and procedures to avoid pixel classification errors. As a result, sub-pixel fire characterization (e.g., fire radiative power [FRP] retrieval) is only viable across small and/or low-intensity fires. Systematic FRP retrievals are based on a hybrid approach combining 375 and 750 m data. In fact, starting in 2015 the algorithm incorporated additional VIIRS channel M13 (3.973-4.128 µm) 750 m data in both aggregated and unaggregated format.
+
+Type*	Inferred hot spot type	0 = presumed vegetation fire
+1 = active volcano
+2 = other static land source
+3 = offshore detection (includes all detections over water)
+DayNight	Day or Night	
+D= Daytime fire, N= Nighttime fire
+
+Type* = This attribute is only available for VNP14IMGT (standard quality) data
+
+more details:
+VIIRS S-NPP NRT fire 
+VIIRS NOAA-20 NRT fire 
+VIIRS NOAA-21 NRT fire 
+
+Dynamic Imagery
+Geostationary Ring Natural Colour RGB - Multimission
+Temporal coverage: 2021-06-03 - present
+The Geostationary Ring Natural Color RGB layer provides a composite of RGB Natural Color products from five geostationary satellites: Meteosat 0 Degree and Meteosat IODC, GOES-18 and GOES-19, Himawari-9. This layer assigns red, green and blue display channels to the short-wave infrared, near infrared and red reflectance bands from the following geostationary sensors: SEVIRI (Meteosat): NIR1.6, VIS0.8 and VIS0.6 channels. - ABI (GOES-18 and GOES-19): NIR1.6, VIS0.86 and VIS0.64 channels. - AHI (Himawari-9): NIR1.6, VIS0.86 and VIS0.64 channels. The combination of these spectral bands yields a false color composite image where features typically appear as follows: vegetation (green), burn scars (reddish-brown), bare soils/deserts (brown), clouds (white), snow and ice (cyan), and water bodies (blue).
+
+The Geostationary Ring Natural Color RGB layer does not continuously update and display imagery captured by each sensor, which is every 10-15 minutes depending on the sensor. Imagery displayed in this layer is updated every 3 hours throughout the day.
+
+The geostationary sensors used in this dynamic image composite are centered at 0 degrees latitude on the following longitude coordinate: Meteosat 0 Degree (aka Meteosat-10, 0 degrees), Meteosat IODC (Meteosat-9, 45.5 degrees E), GOES-18 (137.2 degrees W), GOES-19 (75.2 degrees W), and Himawari-9 (140 degrees E). Please see this map  for a depiction of the spatial coverage of each of these give geostationary sensors.
+
+Geostationary Ring Natural Color RGB Imagery provided by EUMETSAT .
+
+References: Geostationary Ring Natural Colour RGB - Multimission  ; Natural Colour RGB Quick Guide  and GeoColor Product Quick Guide 
+
+GOES East GeoColor (True Color (Day), Multispectral IR (Night))
+Temporal coverage: 30 May 2026 - Present
+Note: This layer is generally available for the most recent 90 days, though certain historical ranges are also preserved.
+
+The GeoColor (True Color (Day), Multispectral blended infrared (IR; at Night)) layer from the GOES-East Advanced Baseline Imager (ABI) provides an approximation to daytime True Color imagery. The combination of spectral bands yields an appearance similar to what the human eye would perceive for land surface, oceanic and atmospheric features, with atmospheric correction used to make the appearance of these features sharper. Thus it is used primarily for the intuitive interpretation of meteorological and surface-based features such as smoke, blowing dust, and vegetation types (forests, deserts, croplands, etc.). At night, the true color imagery gives way to IR-based blended multispectral imagery that provides differentiation between low liquid water clouds (shown in light blue) and higher ice clouds (shown in gray/white). It also includes a static city lights/night lights database derived from the VIIRS Day/Night Band, which aids in geo-referencing and can help determine the proximity of clouds (such as fog) or weather hazards (such as thunderstorms or tropical cyclones) to population centers. Please note that as these lights are static, they will not change even if, for example, a weather-induced power outage occurs.
+
+The Geostationary Operational Environmental Satellites (GOES)-East satellite (currently, GOES-19) is centered on 75.2 degrees W, covering the Conterminous US, Canada, Central and South America. The GOES-East ABI imagery is available on a rolling 90-day basis at 10 minute intervals. The product resolution is 1 km, the imagery resolution in Worldview/Global Imagery Browse Services (GIBS) is 1 km, the temporal resolution is 10 minutes, and the latency (time from satellite acquisition to availability in GIBS) is approximately 40 minutes.
+
+GeoColor Imagery provided by NOAA/NESDIS/STAR.
+
+References: GeoColor Product Quick Guide; Miller, Steven D., Daniel T. Lindsey, Curtis J. Seaman, and Jeremy E. Solbrig. " GeoColor: A Blending Technique for Satellite Imagery", Journal of Atmospheric and Oceanic Technology 37, 3 (2020): 429-448, doi:10.1175/JTECH-D-19-0134.1
+
+GOES West GeoColor (True Color (Day), Multispectral IR (Night))
+Temporal coverage: 30 May 2026 - Present
+Note: This layer is generally available for the most recent 90 days, though certain historical ranges are also preserved.
+
+The GeoColor (True Color (Day), Multispectral blended infrared (IR; at Night)) layer from the GOES-West Advanced Baseline Imager (ABI) provides an approximation to daytime True Color imagery. The combination of spectral bands yields an appearance similar to what the human eye would perceive for land surface, oceanic and atmospheric features, with atmospheric correction used to make the appearance of these features sharper. Thus it is used primarily for the intuitive interpretation of meteorological and surface-based features such as smoke, blowing dust, and vegetation types (forests, deserts, croplands, etc.). At night, the true color imagery gives way to IR-based blended multispectral imagery that provides differentiation between low liquid water clouds (shown in light blue) and higher ice clouds (shown in gray/white). It also includes a static city lights/night lights database derived from the VIIRS Day/Night Band, which aids in geo-referencing and can help determine the proximity of clouds (such as fog) or weather hazards (such as thunderstorms or tropical cyclones) to population centers. Please note that as these lights are static, they will not change even if, for example, a weather-induced power outage occurs.
+
+The Geostationary Operational Environmental Satellites (GOES)-West satellite (currently, GOES-18) is centered on 137.2 degrees W, covering most of the Pacific Ocean, the USA, most of Canada, Central America, the western half of South America, and parts of Australasia. The GOES-West ABI imagery is available on a rolling 90-day basis at 10 minute intervals. The product resolution is 1 km, the imagery resolution in Worldview/Global Imagery Browse Services (GIBS) is 1 km, the temporal resolution is 10 minutes, and the latency (time from satellite acquisition to availability in GIBS) is approximately 40 minutes.
+
+GeoColor Imagery provided by NOAA/NESDIS/STAR.
+
+References: GeoColor Product Quick Guide; Miller, Steven D., Daniel T. Lindsey, Curtis J. Seaman, and Jeremy E. Solbrig. " GeoColor: A Blending Technique for Satellite Imagery", Journal of Atmospheric and Oceanic Technology 37, 3 (2020): 429-448, doi:10.1175/JTECH-D-19-0134.1
+
+HLS LANDSAT 8/9 OLI – LAST 8-DAY ADJUSTED REFLECTANCE HLS L30 NADIR BRDF (TRUE COLOR)
+Temporal coverage: 11 April 2013 - Present
+This image layer is a global mosaic of the last 8 days of Harmonized Landsat and Sentinel-2 (HLS) Landsat-8 and Landsat-9 Operational Land Imager (OLI) Adjusted Reflectance HLS L30 Nadir Bidirectional Reflectance Distribution Function (BRDF) imagery. The dynamic, rolling mosaic displays the last 8 days of true color composite imagery relative to the currently specified date in FIRMS.
+
+The Reflectance (Nadir BRDF Adjusted) imagery layer from Landsat 8 and 9/OLI is a true-color or natural color image because this combination of wavelengths is similar to what the human eye would see. It consists of natural-looking images of land surface, oceanic and atmospheric features. The Reflectance (Nadir BRDF Adjusted) imagery layer from Landsat 8 and 9/OLI provides 30m Nadir Bidirectional Reflectance Distribution Function (BRDF)-Adjusted Reflectance (NBAR) and is derived from a combination of the joint NASA/USGS Landsat 8 and Landsat 9 Operational Land Imager (OLI) data products through the Harmonized Landsat and Sentinel-2 (HLS) project.
+
+The Reflectance (Nadir BRDF Adjusted) imagery layer from Landsat 8 and 9/OLI product (L30) is available through the HLS project from the Operational Land Imager (OLI) aboard the Landsat 8 and 9 satellites. The sensor resolution is 30 m, imagery resolution is 30 m, and the temporal resolution is daily with an 8 day revisit time. The imagery is available in Worldview/GIBS approximately 2 - 4 days after satellite overpass. There is a separate combined Sentinel-2 imagery layer available.
+
+Landsat 9 launched on September 27, 2021 and was subsequently added to the HLS product, availability of imagery from Landsat 8 and Landsat 9 is as follows:
+
+Landsat 8: April 11, 2013 - Present
+Landsat 9: May 31, 2022 - Present
+References: HLSL30 v002 doi:10.5067/HLS/HLSL30.002
+
+HLS SENTINEL-2 MSI – LAST 5-DAY ADJUSTED REFLECTANCE HLS S30 NADIR BRDF (TRUE COLOR)
+Temporal coverage: 28 November 2015 - Present
+This image layer is global mosaic of the last 5 days of Harmonized Landsat and Sentinel-2 (HLS) Sentinel 2-A, Sentinel-2B and Sentinel-2C Operational Land Imager (OLI) Adjusted Reflectance HLS S30 Nadir Bidirectional Reflectance Distribution Function (BRDF) imagery. The dynamic, rolling mosaic displays the last 5 days of true color composite imagery relative to the currently specified date in FIRMS.
+
+The Reflectance (Nadir BRDF Adjusted) imagery layer from Sentinel-2/MSI is a true-color or natural color image because this combination of wavelengths is similar to what the human eye would see. It consists of natural-looking images of land surface, oceanic and atmospheric features. The Reflectance (Nadir BRDF Adjusted) imagery layer from Sentinel-2/MSI provides 30m Nadir Bidirectional Reflectance Distribution Function (BRDF)-Adjusted Reflectance (NBAR) and is derived from a combination of the European Union’s Copernicus Sentinel-2 Multi-Spectral Instrument (MSI) data products through the Harmonized Landsat and Sentinel-2 (HLS) project.
+
+The Reflectance (Nadir BRDF-Adjusted) product (S30) is available through the HLS project from the Multi-Spectral Instrument (MSI) aboard the European Union’s Copernicus Sentinel-2A, Sentinel-2B, and Sentinel-2C satellites. The sensor resolution is 10, 20, and 60 m, imagery resolution is resampled to 30 m, and the temporal resolution is daily with a 5 day revisit time. The imagery is available in Worldview/GIBS approximately 2 - 4 days after satellite overpass. There is a separate combined Landsat 8 and 9 imagery layer available.
+
+On January 21, 2025, the Sentinel-2C satellite replaced Sentinel-2A satellite. A temporary one year extension campaign of Sentinel-2A began on March 13, 2025. This campaign provides increased observations over Europe, and tropical regions of Africa and South America. In addition, it was announced that the campaign has been extended to the end of 2026.
+
+This layer contains a mix of imagery from Sentinel-2A, Sentinel-2B, and Sentinel-2C:
+
+Sentinel-2A: November 28, 2015 to January 22, 2025; March 14, 2025 to December 31, 2026.
+Sentinel-2B: September 18, 2017 to Present
+Sentinel-2C: January 21, 2025 to Present
+References: HLSS30 v002 doi:10.5067/HLS/HLSS30.002
+
+MODIS/Aqua Corrected Reflectance (true color)
+Temporal coverage: 03 July 2002 - Present
+True Color: Red = Band 1, Green = Band 4, Blue = Band 3
+
+These images are called true-color or natural color because this combination of wavelengths is similar to what the human eye would see. The images are natural-looking images of land surface, oceanic and atmospheric features. The downside of this set of bands is that they tend to produce a hazy image.
+
+The MODIS Corrected Reflectance imagery is available only as near real-time imagery. The imagery can be visualized in Worldview and the Global Imagery Browse Services (GIBS). The sensor resolution is 500 m and 250 m (Bands 1 and 2 have a sensor resolution of 250 m, Bands 3 – 7 have a sensor resolution of 500m, and Bands 8 - 36 are 1 km. Band 1 is used to sharpen Band 3, 4, 6, and 7), imagery resolution is 250 m, and the temporal resolution is daily.
+
+References: MYD02HKM doi:10.5067/MODIS/MYD02HKM.061; MYD021KM doi:10.5067/MODIS/MYD021KM.061
+
+MODIS/Aqua Corrected Reflectance 721
+Temporal coverage: 03 July 2002 - Present
+False Color: Red = Band 7, Green = Band 2, Blue = Band 1
+
+This combination is most useful for distinguishing burn scars from naturally low vegetation or bare soil and enhancing floods. This combination can also be used to distinguish snow and ice from clouds. Snow and ice are very reflective in the visible part of the spectrum (Band 1), and absorbent in Bands 2 (near infrared) and 7 (short-wave infrared, or SWIR). Thick ice and snow appear vivid sky blue, while small ice crystals in high-level clouds will also appear blueish, and water clouds will appear white.
+
+The MODIS Corrected Reflectance imagery is available only as near real-time imagery. The imagery can be visualized in Worldview and the Global Imagery Browse Services (GIBS). The sensor resolution is 500 m and 250 m (Bands 1 and 2 have a sensor resolution of 250 m, Bands 3 – 7 have a sensor resolution of 500 m, and Bands 8 - 36 are 1 km. Band 1 is used to sharpen Band 3, 4, 6, and 7), imagery resolution is 250 m, and the temporal resolution is daily.
+
+Vegetation and bare ground
+Vegetation is very reflective in the near infrared (Band 2), and absorbent in Band 1 and Band 7. Assigning that band to green means even the smallest hint of vegetation will appear bright green in the image. Naturally bare soil, like a desert, is reflective in all bands used in this image, but more so in the SWIR (Band 7, red) and so soils will often have a pinkish tinge.
+
+Burned areas
+Burned areas or fire-affected areas are characterized by deposits of charcoal and ash, removal of vegetation and/or the alteration of vegetation structure. When bare soil becomes exposed, the brightness in Band 1 may increase, but that may be offset by the presence of black carbon residue; the near infrared (Band 2) will become darker, and Band 7 becomes more reflective. When assigned to red in the image, Band 7 will show burn scars as deep or bright red, depending on the type of vegetation burned, the amount of residue, or the completeness of the burn.
+
+Water
+Liquid water on the ground appears very dark since it absorbs in the red and the SWIR. Sediments in water appear dark blue. Ice and snow appear as bright turquoise. Clouds comprised of small water droplets scatter light equally in both the visible and the SWIR and will appear white. These clouds are usually lower to the ground and warmer. High and cold clouds are comprised of ice crystals and will appear turquoise.
+
+References: MYD02HKM doi:10.5067/MODIS/MYD02HKM.061; MYD021KM doi:10.5067/MODIS/MYD021KM.061
+
+MODIS/Terra Corrected Reflectance (true color)
+Temporal coverage: 24 February 2000 - Present
+True Color: Red = Band 1, Green = Band 4, Blue = Band 3
+
+These images are called true-color or natural color because this combination of wavelengths is similar to what the human eye would see. The images are natural-looking images of land surface, oceanic and atmospheric features. The downside of this set of bands is that they tend to produce a hazy image.
+
+The MODIS Corrected Reflectance imagery is available only as near real-time imagery. The imagery can be visualized in Worldview and the Global Imagery Browse Services (GIBS). The sensor resolution is 500 m and 250 m (Bands 1 and 2 have a sensor resolution of 250 m, Bands 3 – 7 have a sensor resolution of 500m, and Bands 8 - 36 are 1 km. Band 1 is used to sharpen Band 3, 4, 6, and 7), imagery resolution is 250 m, and the temporal resolution is daily.
+
+References: MOD02QKM doi:10.5067/MODIS/MOD02QKM.061; MOD02HKM doi:10.5067/MODIS/MOD02HKM.061; MOD021KM doi:10.5067/MODIS/MOD021KM.061; MYD02QKM doi:10.5067/MODIS/MYD02QKM.061
+
+MODIS/Terra Corrected Reflectance 721
+Temporal coverage: 24 February 2000 - Present
+False Color: Red = Band 7, Green = Band 2, Blue = Band 1
+
+This combination is most useful for distinguishing burn scars from naturally low vegetation or bare soil and enhancing floods. This combination can also be used to distinguish snow and ice from clouds. Snow and ice are very reflective in the visible part of the spectrum (Band 1), and absorbent in Bands 2 (near infrared) and 7 (short-wave infrared, or SWIR). Thick ice and snow appear vivid sky blue, while small ice crystals in high-level clouds will also appear blueish, and water clouds will appear white.
+
+The MODIS Corrected Reflectance imagery is available only as near real-time imagery. The imagery can be visualized in Worldview and the Global Imagery Browse Services (GIBS). The sensor resolution is 500 m and 250 m (Bands 1 and 2 have a sensor resolution of 250 m, Bands 3 – 7 have a sensor resolution of 500 m, and Bands 8 - 36 are 1 km. Band 1 is used to sharpen Band 3, 4, 6, and 7), imagery resolution is 250 m, and the temporal resolution is daily.
+
+Vegetation and bare ground
+Vegetation is very reflective in the near infrared (Band 2), and absorbent in Band 1 and Band 7. Assigning that band to green means even the smallest hint of vegetation will appear bright green in the image. Naturally bare soil, like a desert, is reflective in all bands used in this image, but more so in the SWIR (Band 7, red) and so soils will often have a pinkish tinge.
+
+Burned areas
+Burned areas or fire-affected areas are characterized by deposits of charcoal and ash, removal of vegetation and/or the alteration of vegetation structure. When bare soil becomes exposed, the brightness in Band 1 may increase, but that may be offset by the presence of black carbon residue; the near infrared (Band 2) will become darker, and Band 7 becomes more reflective. When assigned to red in the image, Band 7 will show burn scars as deep or bright red, depending on the type of vegetation burned, the amount of residue, or the completeness of the burn.
+
+Water
+Liquid water on the ground appears very dark since it absorbs in the red and the SWIR. Sediments in water appear dark blue. Ice and snow appear as bright turquoise. Clouds comprised of small water droplets scatter light equally in both the visible and the SWIR and will appear white. These clouds are usually lower to the ground and warmer. High and cold clouds are comprised of ice crystals and will appear turquoise.
+
+References: MOD02QKM doi:10.5067/MODIS/MOD02QKM.061; MOD02HKM doi:10.5067/MODIS/MOD02HKM.061; MOD021KM doi:10.5067/MODIS/MOD021KM.061; MYD02QKM doi:10.5067/MODIS/MYD02QKM.061
+
+VIIRS NOAA-20 Black Marble Nighttime At Sensor Radiance
+Temporal coverage: 25 April 2024 - Present
+Similar to true color and false color imagery by daytime VIIRS observations, this gray scale image of the Day-Night Band is added to FIRMS to visualize the location and extent of the fire line on active wildland fire events under varying nighttime illumination conditions as well as cloud cover and smoke that may preclude the ability of the satellite active fire detection. The visibility of cloud cover, smoke and burned areas increase with under relatively brighter moonlight conditions.
+
+The Black Marble Nighttime At Sensor Radiance (Day/Night Band) layer is created from NASA’s Black Marble daily at-sensor top-of-atmosphere nighttime radiance product (VJ146A1). It is displayed as a grayscale image. The layer is expressed in radiance units (nW/(cm2 sr)) with log10 conversion. It is stretched up to 38 nW/(cm2 sr) resulting in improvements in capturing city lights in greater spatial detail than traditional Nighttime Imagery resampled at 0-255 (e.g., Day/Night Band, Enhanced Near Constant Contrast).
+
+The ultra-sensitivity of the VIIRS Day/Night Band enables scientists to capture the Earth’s surface and atmosphere in low light conditions, allowing for better monitoring of nighttime phenomena. These images are also useful for assessing anthropogenic sources of light emissions under varying illumination conditions. For instance, during partial to full moon conditions, the layer can identify the location and features of clouds and other natural terrestrial features such as sea ice and snow cover, while enabling temporal observations in urban regions, regardless of moonlit conditions. As such, the layer is particularly useful for detecting city lights, lightning, auroras, fires, gas flares, and fishing fleets.
+
+The Black Marble Nighttime At Sensor Radiance (Day/Night Band) layer is available in near real-time from the Visible Infrared Imaging Radiometer Suite (VIIRS) aboard the joint NASA/NOAA NOAA-20 (JPSS-1) satellite. The sensor resolution is 750 m at nadir, imagery resolution is 500 m, and the temporal resolution is daily.
+
+References: VJ146A1_NRT doi:10.5067/VIIRS/VJ146A1_NRT.002; Earthdata - Nighttime Lights; VNP46A1; Black Marble User Guide; Black Marble ATBD; The Lights of London. NASA Earth Observatory; Out of the Blue and Into the Black. NASA Earth Observatory.
+
+Román, M. O., Z. Wang, Q. Sun, V. Kalb, S. D. Miller, A. Molthan, L. Schultz, J. Bell, E. C. Stokes, B. Pandey, K. C. Seto, D. Hall, T. Oda, R. E. Wolfe, G. Lin, N. Golpayegani, S. Devadiga, C. Davidson, S. Sarkar, C. Praderas, J. Schmaltz, R. Boller, J. Stevens, O. M. Ramos Gonzalez, E. Padilla, J. Alonso, Y. Detrés, R. Armstrong, I. Miranda, Y. Conte, N. Marrero, K. MacManus, T. Esch, and E. J. Masuoka. 2018. "NASA’s Black Marble nighttime lights product suite." Remote Sensing of Environment 210 113-143 doi:10.1016/j.rse.2018.03.017
+
+Lee, T., S. Miller, F. Turk, C. Schueler, R. Julian, S. Deyo, P. Dills, and S. Wang, 2006: The NPOESS VIIRS Day/Night Visible Sensor. Bull. Amer. Meteor. Soc., 87, 191–199, doi:10.1175/BAMS-87-2-191
+
+Román, M. O. and Stokes, E. C. (2015), Holidays in lights: Tracking cultural patterns in demand for energy services. Earth's Future, 3: 182–205. doi:10.1002/2014EF000285
+
+VIIRS NOAA-20 Black Marble Nighttime Blue/Yellow Composite
+Temporal coverage: 25 March 2024 - Present
+Similar to true color and false color imagery by daytime VIIRS observations, this false color image composite of the Day-Night Band and longwave thermal infrared band is added to FIRMS to visualize the location and extent of the fire line on active wildland fire events under varying nighttime illumination conditions as well as cloud cover that may preclude the ability of the satellite active fire detection.
+
+The Black Marble Nighttime Blue/Yellow Composite (Day/Night Band) is a false color composite using the VIIRS at-sensor radiance and the brightness temperatures from the M15 band. Data are provided by NASA’s VJ146A1 product using NOAA-20 (JPSS-1) observations. Originally designed by the Naval Research Lab and incorporated into NASA research and applications efforts, the resulting false color scheme produces nighttime city lights in shades of yellow with infrared, nighttime cloud presence in shades of blue. During bright moonlight conditions, moonlight reflected from cloud tops and the land surface may also provide a yellow hue to those features. Comparisons of cloud-free conditions before and after a period of significant change, such as new city growth, disasters, fires, or other factors, may exhibit a change in emitted light (yellows) from those features over time.
+
+The Black Marble Nighttime Blue/Yellow Composite (Day/Night Band) layer is available in near real-time from the Visible Infrared Imaging Radiometer Suite (VIIRS) aboard the joint NASA/NOAA NOAA-20 (JPSS-1) satellite. The sensor resolution is 750 m at nadir, imagery resolution is 500 m, and the temporal resolution is daily.
+
+References: VJ146A1_NRT doi:10.5067/VIIRS/VJ146A1_NRT.002; Earthdata - Nighttime Lights; VNP46A1; Black Marble User Guide; Black Marble ATBD; The Lights of London. NASA Earth Observatory; Out of the Blue and Into the Black. NASA Earth Observatory.
+
+Román, M. O., Z. Wang, Q. Sun, V. Kalb, S. D. Miller, A. Molthan, L. Schultz, J. Bell, E. C. Stokes, B. Pandey, K. C. Seto, D. Hall, T. Oda, R. E. Wolfe, G. Lin, N. Golpayegani, S. Devadiga, C. Davidson, S. Sarkar, C. Praderas, J. Schmaltz, R. Boller, J. Stevens, O. M. Ramos Gonzalez, E. Padilla, J. Alonso, Y. Detrés, R. Armstrong, I. Miranda, Y. Conte, N. Marrero, K. MacManus, T. Esch, and E. J. Masuoka. 2018. "NASA’s Black Marble nighttime lights product suite." Remote Sensing of Environment 210 113-143 doi:10.1016/j.rse.2018.03.017
+
+Lee, T., S. Miller, F. Turk, C. Schueler, R. Julian, S. Deyo, P. Dills, and S. Wang, 2006: The NPOESS VIIRS Day/Night Visible Sensor. Bull. Amer. Meteor. Soc., 87, 191–199, doi:10.1175/BAMS-87-2-191
+
+Román, M. O. and Stokes, E. C. (2015), Holidays in lights: Tracking cultural patterns in demand for energy services. Earth's Future, 3: 182–205. doi:10.1002/2014EF000285
+
+VIIRS NOAA-20 Corrected Reflectance (true color)
+Temporal coverage: 25 April 2020 - Present
+True Color: Red = Band I1, Green = Band M4, Blue = Band M3
+
+These images are called true-color or natural color because this combination of wavelengths is similar to what the human eye would see. The images are natural-looking images of land surface, oceanic and atmospheric features.
+
+The Visible Infrared Imaging Radiometer Suite (VIIRS) Corrected Reflectance imagery is available only as near real-time imagery. The VIIRS instrument is aboard the joint NASA/NOAA NOAA-20 (JPSS-1) satellite. The imagery can be visualized in Worldview and the Global Imagery Browse Services (GIBS). The sensor resolution is 750 m and 375 m (M Bands are 750 m, I Bands are 375 m), imagery resolution is 250 m, and the temporal resolution is daily.
+
+Note: The Corrected Reflectance and the Thermal Band I5 imagery from NOAA-20/VIIRS will occasionally show a checkered pattern, especially over the respective polar areas. This is due to overlapping and superimposition of observations from multiple orbits with widely different cloud/snow coverages. The checkered pattern may also arise from the mixture of partial day and night observations. Though all necessary steps have been taken to mitigate this effect, users may still notice this to some extent over the polar areas, depending on the season.
+
+References: VJ103MOD_NRT doi:10.5067/VIIRS/VJ103MOD_NRT.021; VJ103IMG_NRT doi:10.5067/VIIRS/VJ103IMG_NRT.021; VJ102MOD_NRT doi:10.5067/VIIRS/VJ102MOD_NRT.021; VJ102IMG_NRT doi:10.5067/VIIRS/VJ102IMG_NRT.021
+
+VIIRS NOAA-20 Corrected Reflectance (bands M11-I2-I1)
+Temporal coverage: 25 April 2020 - Present
+False Color: Red = M11, Green = I2, Blue = I1
+
+This combination is most useful for distinguishing burn scars from naturally low vegetation or bare soil and enhancing floods.
+
+This combination can also be used to distinguish snow and ice from clouds. Snow and ice are very reflective in the visible part of the spectrum (Band I1), and absorbent in Bands I2 (near infrared) and M11 (short-wave infrared, or SWIR). Thick ice and snow appear vivid sky blue, while small ice crystals in high-level clouds will also appear blueish, and water clouds will appear white.
+
+The Visible Infrared Imaging Radiometer Suite (VIIRS) Corrected Reflectance imagery is available only as near real-time imagery. The VIIRS instrument is aboard the joint NASA/NOAA NOAA-20 (JPSS-1) satellite. The imagery can be visualized in Worldview and the Global Imagery Browse Services (GIBS).The sensor resolution is 750 m and 375 m (M Bands are 750 m, I Bands are 375 m), imagery resolution is 250 m, and the temporal resolution is daily.
+
+Vegetation and bare ground
+Vegetation is very reflective in the near infrared (Band I2), and absorbent in Band I1 and Band M11. Assigning that band to green means even the smallest hint of vegetation will appear bright green in the image. Naturally bare soil, like a desert, is reflective in all bands used in this image, but more so in the SWIR (Band M11, red) and so soils will often have a pinkish tinge.
+
+Burned areas
+Burned areas or fire-affected areas are characterized by deposits of charcoal and ash, removal of vegetation and/or the alteration of vegetation structure. When bare soil becomes exposed, the brightness in Band I1 may increase, but that may be offset by the presence of black carbon residue; the near infrared (Band I2) will become darker, and Band M11 becomes more reflective. When assigned to red in the image, Band M11 will show burn scars as deep or bright red, depending on the type of vegetation burned, the amount of residue, or the completeness of the burn.
+
+Water
+Liquid water on the ground appears very dark since it absorbs in the red and the SWIR. Sediments in water appear dark blue. Ice and snow appear as bright turquoise. Clouds comprised of small water droplets scatter light equally in both the visible and the SWIR and will appear white. These clouds are usually lower to the ground and warmer. High and cold clouds are comprised of ice crystals and will appear turquoise.
+
+Note: The Corrected Reflectance and the Thermal Band I5 imagery from NOAA-20/VIIRS will occasionally show a checkered pattern, especially over the respective polar areas. This is due to overlapping and superimposition of observations from multiple orbits with widely different cloud/snow coverages. The checkered pattern may also arise from the mixture of partial day and night observations. Though all necessary steps have been taken to mitigate this effect, users may still notice this to some extent over the polar areas, depending on the season.
+
+References: VJ103MOD_NRT doi:10.5067/VIIRS/VJ103MOD_NRT.021; VJ103IMG_NRT doi:10.5067/VIIRS/VJ103IMG_NRT.021; VJ102MOD_NRT doi:10.5067/VIIRS/VJ102MOD_NRT.021; VJ102IMG_NRT doi:10.5067/VIIRS/VJ102IMG_NRT.021
+
+VIIRS NOAA-21 Corrected Reflectance (true color)
+Temporal coverage: 19 April 2024 - Present
+True Color: Red = Band I1, Green = Band M4, Blue = Band M3
+
+These images are called true-color or natural color because this combination of wavelengths is similar to what the human eye would see. The images are natural-looking images of land surface, oceanic and atmospheric features.
+
+The Visible Infrared Imaging Radiometer Suite (VIIRS) Corrected Reflectance imagery is available only as near real-time imagery. The VIIRS instrument is aboard the joint NASA/NOAA NOAA-21 (JPSS-2) satellite. The imagery can be visualized in Worldview and the Global Imagery Browse Services (GIBS). The sensor resolution is 750 m and 375 m (M Bands are 750 m, I Bands are 375 m), imagery resolution is 250 m, and the temporal resolution is daily.
+
+Note: The Corrected Reflectance and the Thermal Band I5 imagery from NOAA-21/VIIRS will occasionally show a checkered pattern, especially over the respective polar areas. This is due to overlapping and superimposition of observations from multiple orbits with widely different cloud/snow coverages. The checkered pattern may also arise from the mixture of partial day and night observations. Though all necessary steps have been taken to mitigate this effect, users may still notice this to some extent over the polar areas, depending on the season.
+
+References
+VJ203MOD_NRT doi:10.5067/VIIRS/VJ103MOD_NRT.021
+VJ203MOD doi:10.5067/VIIRS/VJ203MOD.021
+VJ203IMG_NRT doi:10.5067/VIIRS/VJ103IMG_NRT.021
+VJ203IMG doi:10.5067/VIIRS/VJ203IMG.021
+VJ202MOD_NRT doi:10.5067/VIIRS/VJ102MOD_NRT.021
+VJ202MOD doi:10.5067/VIIRS/VJ202MOD.002
+VJ202IMG_NRT doi:10.5067/VIIRS/VJ102IMG_NRT.021
+VJ202IMG doi:10.5067/VIIRS/VJ202IMG.021
+
+VIIRS NOAA-21 Corrected Reflectance (bands M11-I2-I1)
+Temporal coverage: 19 April 2024 - Present
+False Color: Red = M11, Green = I2, Blue = I1
+
+This combination is most useful for distinguishing burn scars from naturally low vegetation or bare soil and enhancing floods.
+
+This combination can also be used to distinguish snow and ice from clouds. Snow and ice are very reflective in the visible part of the spectrum (Band I1), and absorbent in Bands I2 (near infrared) and M11 (short-wave infrared, or SWIR). Thick ice and snow appear vivid sky blue, while small ice crystals in high-level clouds will also appear blueish, and water clouds will appear white.
+
+The Visible Infrared Imaging Radiometer Suite (VIIRS) Corrected Reflectance imagery is available only as near real-time imagery. The VIIRS instrument is aboard the joint NASA/NOAA NOAA-20 (JPSS-1) satellite. The imagery can be visualized in Worldview and the Global Imagery Browse Services (GIBS).The sensor resolution is 750 m and 375 m (M Bands are 750 m, I Bands are 375 m), imagery resolution is 250 m, and the temporal resolution is daily.
+
+Vegetation and bare ground
+Vegetation is very reflective in the near infrared (Band I2), and absorbent in Band I1 and Band M11. Assigning that band to green means even the smallest hint of vegetation will appear bright green in the image. Naturally bare soil, like a desert, is reflective in all bands used in this image, but more so in the SWIR (Band M11, red) and so soils will often have a pinkish tinge.
+
+Burned areas
+Burned areas or fire-affected areas are characterized by deposits of charcoal and ash, removal of vegetation and/or the alteration of vegetation structure. When bare soil becomes exposed, the brightness in Band I1 may increase, but that may be offset by the presence of black carbon residue; the near infrared (Band I2) will become darker, and Band M11 becomes more reflective. When assigned to red in the image, Band M11 will show burn scars as deep or bright red, depending on the type of vegetation burned, the amount of residue, or the completeness of the burn.
+
+Water
+Liquid water on the ground appears very dark since it absorbs in the red and the SWIR. Sediments in water appear dark blue. Ice and snow appear as bright turquoise. Clouds comprised of small water droplets scatter light equally in both the visible and the SWIR and will appear white. These clouds are usually lower to the ground and warmer. High and cold clouds are comprised of ice crystals and will appear turquoise.
+
+Note: The Corrected Reflectance and the Thermal Band I5 imagery from NOAA-21/VIIRS will occasionally show a checkered pattern, especially over the respective polar areas. This is due to overlapping and superimposition of observations from multiple orbits with widely different cloud/snow coverages. The checkered pattern may also arise from the mixture of partial day and night observations. Though all necessary steps have been taken to mitigate this effect, users may still notice this to some extent over the polar areas, depending on the season.
+
+References
+VJ203MOD_NRT doi:10.5067/VIIRS/VJ103MOD_NRT.021
+VJ203MOD doi:10.5067/VIIRS/VJ203MOD.021
+VJ203IMG_NRT doi:10.5067/VIIRS/VJ103IMG_NRT.021
+VJ203IMG doi:10.5067/VIIRS/VJ203IMG.021
+VJ202MOD_NRT doi:10.5067/VIIRS/VJ102MOD_NRT.021
+VJ202MOD doi:10.5067/VIIRS/VJ202MOD.002
+VJ202IMG_NRT doi:10.5067/VIIRS/VJ102IMG_NRT.021
+VJ202IMG doi:10.5067/VIIRS/VJ202IMG.021
+
+VIIRS S-NPP Black Marble Nighttime At Sensor Radiance
+Temporal coverage: 18 November 2020 - Present
+Similar to true color and false color imagery by daytime VIIRS observations, this gray scale image of the Day-Night Band is added to FIRMS to visualize the location and extent of the fire line on active wildland fire events under varying nighttime illumination conditions as well as cloud cover and smoke that may preclude the ability of the satellite active fire detection. The visibility of cloud cover, smoke and burned areas increase with under relatively brighter moonlight conditions.
+
+The Black Marble Nighttime At Sensor Radiance (Day/Night Band) layer is created from NASA’s Black Marble daily at-sensor top-of-atmosphere nighttime radiance product (VNP46A1). It is displayed as a grayscale image. The layer is expressed in radiance units (nW/(cm2 sr)) with log10 conversion. It is stretched up to 38 nW/(cm2 sr) resulting in improvements in capturing city lights in greater spatial detail than traditional Nighttime Imagery resampled at 0-255 (e.g., Day/Night Band, Enhanced Near Constant Contrast).
+
+The ultra-sensitivity of the VIIRS Day/Night Band enables scientists to capture the Earth’s surface and atmosphere in low light conditions, allowing for better monitoring of nighttime phenomena. These images are also useful for assessing anthropogenic sources of light emissions under varying illumination conditions. For instance, during partial to full moon conditions, the layer can identify the location and features of clouds and other natural terrestrial features such as sea ice and snow cover, while enabling temporal observations in urban regions, regardless of moonlit conditions. As such, the layer is particularly useful for detecting city lights, lightning, auroras, fires, gas flares, and fishing fleets.
+
+The Black Marble Nighttime At Sensor Radiance (Day/Night Band) layer is available in near real-time from the Visible Infrared Imaging Radiometer Suite (VIIRS) aboard the joint NASA/NOAA Suomi National Polar orbiting Partnership (Suomi NPP) satellite. The sensor resolution is 750 m at nadir, imagery resolution is 500 m, and the temporal resolution is daily.
+
+References: VNP46A1_NRT doi:10.5067/VIIRS/VNP46A1_NRT.002; Earthdata - Nighttime Lights; VNP46A1; Black Marble User Guide; Black Marble ATBD; The Lights of London. NASA Earth Observatory; Out of the Blue and Into the Black. NASA Earth Observatory.
+
+Román, M. O., Z. Wang, Q. Sun, V. Kalb, S. D. Miller, A. Molthan, L. Schultz, J. Bell, E. C. Stokes, B. Pandey, K. C. Seto, D. Hall, T. Oda, R. E. Wolfe, G. Lin, N. Golpayegani, S. Devadiga, C. Davidson, S. Sarkar, C. Praderas, J. Schmaltz, R. Boller, J. Stevens, O. M. Ramos Gonzalez, E. Padilla, J. Alonso, Y. Detrés, R. Armstrong, I. Miranda, Y. Conte, N. Marrero, K. MacManus, T. Esch, and E. J. Masuoka. 2018. "NASA’s Black Marble nighttime lights product suite." Remote Sensing of Environment 210 113-143 doi:10.1016/j.rse.2018.03.017
+
+Lee, T., S. Miller, F. Turk, C. Schueler, R. Julian, S. Deyo, P. Dills, and S. Wang, 2006: The NPOESS VIIRS Day/Night Visible Sensor. Bull. Amer. Meteor. Soc., 87, 191–199, doi:10.1175/BAMS-87-2-191
+
+Román, M. O. and Stokes, E. C. (2015), Holidays in lights: Tracking cultural patterns in demand for energy services. Earth's Future, 3: 182–205. doi:10.1002/2014EF000285
+
+VIIRS S-NPP Black Marble Nighttime Blue/Yellow Composite
+Temporal coverage: 30 April 2021 - Present
+Similar to true color and false color imagery by daytime VIIRS observations, this false color image composite of the Day-Night Band and longwave thermal infrared band is added to FIRMS to visualize the location and extent of the fire line on active wildland fire events under varying nighttime illumination conditions as well as cloud cover that may preclude the ability of the satellite active fire detection.
+
+The Black Marble Nighttime Blue/Yellow Composite (Day/Night Band) is a false color composite using the VIIRS at-sensor radiance and the brightness temperatures from the M15 band. Data are provided by NASA’s VNP46A1 product using Suomi NPP observations. Originally designed by the Naval Research Lab and incorporated into NASA research and applications efforts, the resulting false color scheme produces nighttime city lights in shades of yellow with infrared, nighttime cloud presence in shades of blue. During bright moonlight conditions, moonlight reflected from cloud tops and the land surface may also provide a yellow hue to those features. Comparisons of cloud-free conditions before and after a period of significant change, such as new city growth, disasters, fires, or other factors, may exhibit a change in emitted light (yellows) from those features over time.
+
+The Black Marble Nighttime Blue/Yellow Composite (Day/Night Band) layer is available in near real-time from the Visible Infrared Imaging Radiometer Suite (VIIRS) aboard the joint NASA/NOAA Suomi National Polar orbiting Partnership (Suomi NPP) satellite. The sensor resolution is 750 m at nadir, imagery resolution is 500 m, and the temporal resolution is daily.
+
+References: VNP46A1_NRT doi:10.5067/VIIRS/VNP46A1_NRT.002; Earthdata - Nighttime Lights; VNP46A1; Black Marble User Guide; Black Marble ATBD; The Lights of London. NASA Earth Observatory; Out of the Blue and Into the Black. NASA Earth Observatory.
+
+Román, M. O., Z. Wang, Q. Sun, V. Kalb, S. D. Miller, A. Molthan, L. Schultz, J. Bell, E. C. Stokes, B. Pandey, K. C. Seto, D. Hall, T. Oda, R. E. Wolfe, G. Lin, N. Golpayegani, S. Devadiga, C. Davidson, S. Sarkar, C. Praderas, J. Schmaltz, R. Boller, J. Stevens, O. M. Ramos Gonzalez, E. Padilla, J. Alonso, Y. Detrés, R. Armstrong, I. Miranda, Y. Conte, N. Marrero, K. MacManus, T. Esch, and E. J. Masuoka. 2018. "NASA’s Black Marble nighttime lights product suite." Remote Sensing of Environment 210 113-143 doi:10.1016/j.rse.2018.03.017
+
+Lee, T., S. Miller, F. Turk, C. Schueler, R. Julian, S. Deyo, P. Dills, and S. Wang, 2006: The NPOESS VIIRS Day/Night Visible Sensor. Bull. Amer. Meteor. Soc., 87, 191–199, doi:10.1175/BAMS-87-2-191
+
+Román, M. O. and Stokes, E. C. (2015), Holidays in lights: Tracking cultural patterns in demand for energy services. Earth's Future, 3: 182–205. doi:10.1002/2014EF000285
+
+VIIRS S-NPP Corrected Reflectance (true color)
+Temporal coverage: 24 November 2015 - Present
+True Color: Red = Band I1, Green = Band M4, Blue = Band M3
+
+These images are called true-color or natural color because this combination of wavelengths is similar to what the human eye would see. The images are natural-looking images of land surface, oceanic and atmospheric features.
+
+The Visible Infrared Imaging Radiometer Suite (VIIRS) Corrected Reflectance imagery is available only as near real-time imagery. The VIIRS instrument in on board the joint NASA/NOAA Suomi National Polar orbiting Partnership (Suomi NPP) satellite. The imagery can be visualized in Worldview and the Global Imagery Browse Services (GIBS). The sensor resolution is 750 m and 375 m (M Bands are 750 m, I Bands are 375 m), imagery resolution is 250 m, and the temporal resolution is daily.
+
+References: VNP03MOD_NRT doi:10.5067/VIIRS/VNP03MOD_NRT.002; VNP03IMG_NRT doi:10.5067/VIIRS/VNP03IMG_NRT.002; VNP02MOD_NRT doi:10.5067/VIIRS/VNP02MOD_NRT.002; VNP02IMG_NRT doi:10.5067/VIIRS/VNP02IMG_NRT.002
+
+VIIRS S-NPP Corrected Reflectance (bands M11-I2-I1)
+Temporal coverage: 24 November 2015 - Present
+False Color: Red = M11, Green = I2, Blue = I1
+
+This combination is most useful for distinguishing burn scars from naturally low vegetation or bare soil and enhancing floods.
+
+This combination can also be used to distinguish snow and ice from clouds. Snow and ice are very reflective in the visible part of the spectrum (Band I1), and absorbent in Bands I2 (near infrared) and M11 (short-wave infrared, or SWIR). Thick ice and snow appear vivid sky blue, while small ice crystals in high-level clouds will also appear blueish, and water clouds will appear white.
+
+The Visible Infrared Imaging Radiometer Suite (VIIRS) Corrected Reflectance imagery is available only as near real-time imagery. The VIIRS instrument in on board the joint NASA/NOAA Suomi National Polar orbiting Partnership (Suomi NPP) satellite. The imagery can be visualized in Worldview and the Global Imagery Browse Services (GIBS).The sensor resolution is 750 m and 375 m (M Bands are 750 m, I Bands are 375 m), imagery resolution is 250 m, and the temporal resolution is daily.
+
+Vegetation and bare ground
+Vegetation is very reflective in the near infrared (Band I2), and absorbent in Band I1 and Band M11. Assigning that band to green means even the smallest hint of vegetation will appear bright green in the image. Naturally bare soil, like a desert, is reflective in all bands used in this image, but more so in the SWIR (Band M11, red) and so soils will often have a pinkish tinge.
+
+Burned areas
+Burned areas or fire-affected areas are characterized by deposits of charcoal and ash, removal of vegetation and/or the alteration of vegetation structure. When bare soil becomes exposed, the brightness in Band I1 may increase, but that may be offset by the presence of black carbon residue; the near infrared (Band I2) will become darker, and Band M11 becomes more reflective. When assigned to red in the image, Band M11 will show burn scars as deep or bright red, depending on the type of vegetation burned, the amount of residue, or the completeness of the burn.
+
+Water
+Liquid water on the ground appears very dark since it absorbs in the red and the SWIR. Sediments in water appear dark blue. Ice and snow appear as bright turquoise. Clouds comprised of small water droplets scatter light equally in both the visible and the SWIR and will appear white. These clouds are usually lower to the ground and warmer. High and cold clouds are comprised of ice crystals and will appear turquoise.
+
+References: VNP03MOD_NRT doi:10.5067/VIIRS/VNP03MOD_NRT.002; VNP03IMG_NRT doi:10.5067/VIIRS/VNP03IMG_NRT.002; VNP02MOD_NRT doi:10.5067/VIIRS/VNP02MOD_NRT.002; VNP02IMG_NRT doi:10.5067/VIIRS/VNP02IMG_NRT.002
+
+Dynamic Imagery - HLS
+HLS LANDSAT 8/9 OLI - Adjusted Reflectance HLS L30 Nadir BRDF (true color)
+Temporal coverage: 11 April 2013 - Present
+The Reflectance (Nadir BRDF Adjusted) imagery layer from Landsat 8 and 9/OLI is a true-color or natural color image because this combination of wavelengths is similar to what the human eye would see. It consists of natural-looking images of land surface, oceanic and atmospheric features. The Reflectance (Nadir BRDF Adjusted) imagery layer from Landsat 8 and 9/OLI provides 30m Nadir Bidirectional Reflectance Distribution Function (BRDF)-Adjusted Reflectance (NBAR) and is derived from a combination of the joint NASA/USGS Landsat 8 and Landsat 9 Operational Land Imager (OLI) data products through the Harmonized Landsat and Sentinel-2 (HLS) project.
+
+The Reflectance (Nadir BRDF Adjusted) imagery layer from Landsat 8 and 9/OLI product (L30) is available through the HLS project from the Operational Land Imager (OLI) aboard the Landsat 8 and 9 satellites. The sensor resolution is 30 m, imagery resolution is 30 m, and the temporal resolution is daily with an 8 day revisit time. The imagery is available in Worldview/GIBS approximately 2 - 4 days after satellite overpass. There is a separate combined Sentinel-2 imagery layer available.
+
+Landsat 9 launched on September 27, 2021 and was subsequently added to the HLS product, availability of imagery from Landsat 8 and Landsat 9 is as follows:
+
+Landsat 8: April 11, 2013 - Present
+Landsat 9: May 31, 2022 - Present
+References: HLSL30 v002 doi:10.5067/HLS/HLSL30.002
+
+HLS LANDSAT 8/9 OLI - Adjusted Reflectance HLS L30 (bands 7-5-4)
+Temporal coverage: 2022-03-15 - present ( -2..4 days )
+The Reflectance (Bands 7-5-4) layer from Landsat 8/OLI is a false color composite (FCC) image that allow us to visualize wavelengths that the human eye cannot see (i.e. short wave infrared). Burned areas appear almost brick red making it easier to see fire affected areas and water is very dark, almost black, which makes it much easier to see lakes or flooded lands.
+
+The Reflectance (Bands 7-5-4) imagery layer from Landsat 8/OLI product (L30) is available through the HLS project from the Operational Land Imager (OLI) aboard the Landsat 8. The sensor resolution is 30 m, imagery resolution is 30 m, and the temporal resolution is daily with a 16 day revisit time. The imagery is available in FIRMS approximately 2 - 4 days after satellite overpass.
+
+Unlike other satellite imagery layers in FIRMS, which are provided through NASA GIBS, the HLS Reflectance (Bands 7-5-4) FCC imagery layer is provided dynamically through the NASA IMPACT program. As it is dynamically generated, it may take slightly longer to display than imagery through GIBS. We are monitoring the performance of the HLS FCC imagery and welcome feedback. There is a separate combined Sentinel 2A and Sentinel 2B imagery layer available.
+
+more details 
+
+HLS LANDSAT 8/9 OLI - Custom Bands
+Temporal coverage: 11 April 2013 - Present
+NOTE: This layer is undergoing beta testing.
+
+This Reflectance imagery layer can be customized to display any available Red-Green-Blue (R-G-B) band combination. Select the desired combination in via the Options panel. The layer is dynamically generated, therefore it may take longer to display.
+
+The Reflectance imagery layer from Landsat 8 and 9/OLI product (L30) is available through the HLS project from the Operational Land Imager (OLI) aboard the Landsat 8 and 9 satellites. The sensor resolution is 30 m, imagery resolution is 30 m, and the temporal resolution is daily with an 8 day revisit time. The imagery is available in Worldview/GIBS approximately 2 - 4 days after satellite overpass. There is a separate combined Sentinel-2 imagery layer available.
+
+Landsat 9 launched on September 27, 2021 and was subsequently added to the HLS product, availability of imagery from Landsat 8 and Landsat 9 is as follows:
+
+Landsat 8: April 11, 2013 - Present
+Landsat 9: May 31, 2022 - Present
+This imagery layer is provided dynamically through the TiTiler-CMR API developed by Office of Data Science and Informatics (ODSI) at Marshall Space Flight Center. As it is dynamically generated, it may take slightly longer to display than normal. The imagery is only available at higher zoom levels.
+
+References: HLSL30 v002 doi:10.5067/HLS/HLSL30.002
+
+HLS LANDSAT 8/9 OLI NBR - Normalized Burn Ratio
+Temporal coverage: 11 April 2013 - Present
+In the context of wildland fire management, Normalized Burn Ratio (NBR) data derived from satellite observations before and after a wildland fire can be used in change detection analyses to map the extent of a burned area and the magnitude of vegetation burn severity throughout the area. This information is used to support post-fire response and recovery planning actions. Like the Normalized Differenced Moisture Index (NDMI), NBR is also a good indicator for assessing the condition and health of vegetation affected by drought stress.
+
+NOTE: This layer is undergoing beta testing.
+
+The dynamically generated Normalized Burn Ratio (NBR) imagery layer is used to delineate burned areas and measure the degree of fire effects (burn severity) within those areas. The water content present in healthy vegetation, saturated soils, open water bodies, etc. strongly absorbs shortwave infrared light while the structure of healthy vegetation strongly reflects near infrared light. NBR is calculated using the reflectance of the near infrared band (Band 5) and the 2.1 µm shortwave infrared band (Band 7) in HLS L30 imagery. It is calculated as a ratio between the NIR and SWIR values.
+
+NBR = (NIR - SWIR) / (NIR + SWIR)
+
+Specifically for Landsat 8 and 9:
+
+NBR = (Band 5 – Band 7) / (Band 5 + Band 7)
+
+The divergent purple to orange color palette depicts vegetated areas in shades of purple and burned areas in shades of orange.
+
+NBR values range from -1 to 1. Decreasing NBR values within burned areas indicate increasing damage to vegetation density and vigor resulting from fire, increasing presence of ash from burned vegetation, and the increasing exposure of bare, dry soils and rocky areas. Recently burned areas present NBR values that are typically 0 to strongly negative. NBR values increasing from 0 to 1 represent increasingly healthy, undamaged vegetation only lightly burned or not at all affected by fire.
+
+The Reflectance imagery layer from Landsat 8 and 9/OLI product (L30) is available through the HLS project from the Operational Land Imager (OLI) aboard the Landsat 8 and 9 satellites. The sensor resolution is 30 m, imagery resolution is 30 m, and the temporal resolution is daily with an 8 day revisit time. The imagery is available in Worldview/GIBS approximately 2 - 4 days after satellite overpass. There is a separate combined Sentinel-2 imagery layer available.
+
+Landsat 9 launched on September 27, 2021 and was subsequently added to the HLS product, availability of imagery from Landsat 8 and Landsat 9 is as follows:
+
+Landsat 8: April 11, 2013 - Present
+Landsat 9: May 31, 2022 - Present
+This imagery layer is provided dynamically through the TiTiler-CMR API developed by Office of Data Science and Informatics (ODSI) at Marshall Space Flight Center. As it is dynamically generated, it may take slightly longer to display than normal. The imagery is only available at higher zoom levels.
+
+References: HLSL30 v002 doi:10.5067/HLS/HLSL30.002
+
+HLS LANDSAT 8/9 OLI NBR2 - Normalized Burn Ratio 2
+Temporal coverage: 11 April 2013 - Present
+NOTE: This layer is undergoing beta testing.
+
+The dynamically generated Normalized Burn Ratio 2 (NBR2) imagery layer is a variant of the Normalized Burn Ratio (NBR). It is used to highlight water sensitivity in vegetation and can potentially be used to assess post-fire vegetation conditions. The water content present in healthy vegetation, saturated soils, open water bodies, etc. are strongly absorbed by shortwave infrared light at 1.6 µm and 2.1 µm, relatively more so for the latter. The 1.6 µm band is particularly sensitive to moisture content within vegetation and can aid in discriminating between woody and non-woody vegetation types, while the 2.1 µm band provides additional overall sensitivity to moisture in vegetation and soils. NBR2 is calculated using the reflectance of the 1.6 µm shortwave infrared band (Band 6) and the 2.1 µm shortwave infrared band (Band 7) in HLS L30 imagery.
+
+NBR2 = (SWIR1 – SWIR2) / (SWIR1 + SWIR2)
+
+Specifically for Landsat 8 and 9:
+
+NBR2 = (Band 6 – Band 7) / (Band 6 + Band 7)
+
+The divergent purple to orange color palette depicts vegetated areas in shades of purple and burned areas in shades of orange. NBR2 values range from -1 to 1. NBR2 values on this continuum generally provide similar information to the NBR. NBR2 values at 0 and progressively negative indicate increased vegetation damage and soil exposure resulting from fire while increasingly positive NBR2 values after a fire represent lightly damaged to unburned vegetation. NBR2 can aid in identifying small variations in the moisture content, health and stage of recovery for vegetation that has been affected by fire. Additionally, compared to other indices like the NBR, NBR2 can be more ideal for delineating the extent of burned areas and the mosaic of severity within those boundaries for fires occurring in particular biomes where the burn signal may be relatively more subtle. Such examples include grass/shrubland environments where the vegetation outside of the burned areas are senesced or herbaceous wetland areas and coastal marshes characterized by saturated soils.
+
+The Reflectance imagery layer from Landsat 8 and 9/OLI product (L30) is available through the HLS project from the Operational Land Imager (OLI) aboard the Landsat 8 and 9 satellites. The sensor resolution is 30 m, imagery resolution is 30 m, and the temporal resolution is daily with an 8 day revisit time. The imagery is available in Worldview/GIBS approximately 2 - 4 days after satellite overpass. There is a separate combined Sentinel-2 imagery layer available.
+
+Landsat 9 launched on September 27, 2021 and was subsequently added to the HLS product, availability of imagery from Landsat 8 and Landsat 9 is as follows:
+
+Landsat 8: April 11, 2013 - Present
+Landsat 9: May 31, 2022 - Present
+This imagery layer is provided dynamically through the TiTiler-CMR API developed by Office of Data Science and Informatics (ODSI) at Marshall Space Flight Center. As it is dynamically generated, it may take slightly longer to display than normal. The imagery is only available at higher zoom levels.
+
+References: HLSL30 v002 doi:10.5067/HLS/HLSL30.002
+
+HLS LANDSAT 8/9 OLI NDMI - Normalized Difference Moisture Index
+Temporal coverage: 11 April 2013 - Present
+n the context of wildland fire management, the Normalized Difference Moisture Index (NDMI) can provide relevant information on the moisture content of fuels and their susceptibility to increased fire risk.
+
+NOTE: This layer is undergoing beta testing.
+
+The dynamically generated Normalized Difference Moisture Index (NDMI) imagery layer is an index to determine vegetation water content and monitor drought. NDMI is sensitive to liquid water content in vegetation and can provide an indicator of vegetation stress due to drought. The water content present in healthy vegetation strongly absorbs shortwave infrared light while the structure of leaves strongly reflects near infrared light. NDMI is calculated using the reflectance of the near infrared band (Band 5) and 1.6 µm shortwave infrared band (Band 6) in HLS L30 imagery.
+
+NDMI = (B5-B6)/(B5+B6)
+
+The image is applied with a divergent blue to red color palette. Darker blue colors represent high canopy without water stress, and red colors are areas approaching water stress. NDMI values range from -1 to 1. Decreasing NDMI values for vegetated areas indicate increasingly less water content and increased stress due to drought with the lowest values generally corresponding to completely senesced vegetation or barren areas (rock, sand, exposed soil, built-up areas, etc.). High NDMI values represent healthy, unstressed vegetation (irrigated croplands, wetlands, lush forests, etc.).
+
+The Reflectance imagery layer from Landsat 8 and 9/OLI product (L30) is available through the HLS project from the Operational Land Imager (OLI) aboard the Landsat 8 and 9 satellites. The sensor resolution is 30 m, imagery resolution is 30 m, and the temporal resolution is daily with an 8 day revisit time. The imagery is available in Worldview/GIBS approximately 2 - 4 days after satellite overpass. There is a separate combined Sentinel-2 imagery layer available.
+
+Landsat 9 launched on September 27, 2021 and was subsequently added to the HLS product, availability of imagery from Landsat 8 and Landsat 9 is as follows:
+
+Landsat 8: April 11, 2013 - Present
+Landsat 9: May 31, 2022 - Present
+This imagery layer is provided dynamically through the TiTiler-CMR API developed by Office of Data Science and Informatics (ODSI) at Marshall Space Flight Center. As it is dynamically generated, it may take slightly longer to display than normal. The imagery is only available at higher zoom levels.
+
+References: HLSL30 v002 doi:10.5067/HLS/HLSL30.002
+
+HLS LANDSAT 8/9 OLI NDVI - Normalized Difference Vegetation Index
+Temporal coverage: 11 April 2013 - Present
+In the context of wildland fire management, Normalized Difference Vegetation Index (NDVI) has historically been used to assess the condition and health of vegetation affected by drought stress. Additionally, similar to the Normalized Burn Ratio (NBR), NDVI can be used to map the extent of burned areas and assess fire impacts to aboveground vegetation.
+
+NOTE: This layer is undergoing beta testing.
+
+The dynamically generated Normalized Difference Vegetation Index (NDVI) imagery layer is an index for quantifying green vegetation. NDVI is used to quantify vegetation greenness, understand vegetation density and monitor plant health. In healthy vegetation, chlorophyll strongly absorbs visible light while the structure of leaves strongly reflects near infrared light. NDVI is calculated using the reflectance of the red band (Band 4) and near infrared band (Band 5) in HLS L30 imagery.
+
+NDVI = (B5-B4)/(B5+B4)
+
+The image is applied with a divergent blue-green to brown color palette. It depicts areas with a lot of green leaf growth, indicating the presence of chlorophyll, in dark green colors. Chlorophyll reflects more infrared light and less visible light. Areas with some green leaf growth are in light yellows, and areas with little to no vegetation growth are shades of brown. NDVI values range from -1 to 1. Low NDVI values, at or near 0, generally correspond to barren areas (rock, sand, exposed soil, snow, etc.) while high NDVI values (0.8 to 0.9) represent greener, denser vegetation (forests, croplands, wetlands, etc.).
+
+The Reflectance imagery layer from Landsat 8 and 9/OLI product (L30) is available through the HLS project from the Operational Land Imager (OLI) aboard the Landsat 8 and 9 satellites. The sensor resolution is 30 m, imagery resolution is 30 m, and the temporal resolution is daily with an 8 day revisit time. The imagery is available in Worldview/GIBS approximately 2 - 4 days after satellite overpass. There is a separate combined Sentinel-2 imagery layer available.
+
+Landsat 9 launched on September 27, 2021 and was subsequently added to the HLS product, availability of imagery from Landsat 8 and Landsat 9 is as follows:
+
+Landsat 8: April 11, 2013 - Present
+Landsat 9: May 31, 2022 - Present
+This imagery layer is provided dynamically through the TiTiler-CMR API developed by Office of Data Science and Informatics (ODSI) at Marshall Space Flight Center. As it is dynamically generated, it may take slightly longer to display than normal. The imagery is only available at higher zoom levels.
+
+References: HLSL30 v002 doi:10.5067/HLS/HLSL30.002
+
+HLS SENTINEL-2 MSI - Adjusted Reflectance BRDF (true color)
+Temporal coverage: 28 November 2015 - Present
+The Reflectance (Nadir BRDF Adjusted) imagery layer from Sentinel-2/MSI is a true-color or natural color image because this combination of wavelengths is similar to what the human eye would see. It consists of natural-looking images of land surface, oceanic and atmospheric features. The Reflectance (Nadir BRDF Adjusted) imagery layer from Sentinel-2/MSI provides 30m Nadir Bidirectional Reflectance Distribution Function (BRDF)-Adjusted Reflectance (NBAR) and is derived from a combination of the European Union’s Copernicus Sentinel-2 Multi-Spectral Instrument (MSI) data products through the Harmonized Landsat and Sentinel-2 (HLS) project.
+
+The Reflectance (Nadir BRDF-Adjusted) product (S30) is available through the HLS project from the Multi-Spectral Instrument (MSI) aboard the European Union’s Copernicus Sentinel-2A, Sentinel-2B, and Sentinel-2C satellites. The sensor resolution is 10, 20, and 60 m, imagery resolution is resampled to 30 m, and the temporal resolution is daily with a 5 day revisit time. The imagery is available in Worldview/GIBS approximately 2 - 4 days after satellite overpass. There is a separate combined Landsat 8 and 9 imagery layer available.
+
+On January 21, 2025, the Sentinel-2C satellite replaced Sentinel-2A satellite. A temporary one year extension campaign of Sentinel-2A began on March 13, 2025. This campaign provides increased observations over Europe, and tropical regions of Africa and South America. In addition, it was announced that the campaign has been extended to the end of 2026.
+
+This layer contains a mix of imagery from Sentinel-2A, Sentinel-2B, and Sentinel-2C:
+
+Sentinel-2A: November 28, 2015 to January 22, 2025; March 14, 2025 to December 31, 2026.
+Sentinel-2B: September 18, 2017 to Present
+Sentinel-2C: January 21, 2025 to Present
+References: HLSS30 v002 doi:10.5067/HLS/HLSS30.002
+
+HLS SENTINEL-2 MSI - Adjusted Reflectance HLS S30 (bands 12, 8a, 4)
+Temporal coverage: 2022-03-15 - present ( -2..4 days )
+The Reflectance (Bands 12, 8a, 4) layer from Sentinel 2A, 2B, and 2C is a false color composite (FCC) image that allow us to visualize wavelengths that the human eye cannot see (i.e. short wave infrared). Burned areas appear almost brick red making it easier to see fire affected areas and water is very dark, almost black, which makes it much easier to see lakes or flooded lands.
+
+The Reflectance (Bands 12, 8a, 4) imagery layer is available through the HLS project from the Multi-Spectral Instrument (MSI) aboard the European Union’s Copernicus Sentinel-2A, Sentinel-2B, and Sentinel-2C satellites. The sensor resolution is 10, 20, and 60 m. For this imagery layer, the source 10 and 20 m resolution bands are resampled to 30 m, and the temporal resolution is daily with a 5 day revisit time. The imagery is available in FIRMS approximately 2 - 4 days after satellite overpass.
+
+Unlike other satellite imagery layers in FIRMS, which are provided through NASA GIBS, the HLS Reflectance (Bands 12, 8a, 4) FCC imagery layer is provided dynamically through the NASA IMPACT program. As it is dynamically generated, it may take slightly longer to display than imagery through GIBS. We are monitoring the performance of the HLS FCC imagery and welcome feedback. There is a separate Landsat imagery layer available.
+
+On January 21, 2025, the Sentinel-2C satellite replaced Sentinel-2A satellite. This layer contains a mix of imagery from Sentinel-2A, Sentinel-2B, and Sentinel-2C.
+
+
+Sentinel-2A: November 28, 2015 to January 22, 2025
+Sentinel-2B: September 18, 2017 to Present
+Sentinel-2C: January 21, 2025 to Present
+more details 
+
+HLS SENTINEL-2 MSI - Custom Bands
+Temporal coverage: 28 November 2015 - Present
+NOTE: This layer is undergoing beta testing.
+
+This Reflectance imagery layer can be customized to display any available Red-Green-Blue (R-G-B) band combination. Select the desired combination in via the Options panel. The layer is dynamically generated, therefore it may take longer to display.
+
+The Reflectance imagery layer from Sentinel-2/MSI product (S30) is available through the HLS project from the Multi-Spectral Instrument (MSI) aboard the European Union’s Copernicus Sentinel-2A, Sentinel-2B, and Sentinel-2C satellites. The sensor resolution is 10, 20, and 60 m, imagery resolution is resampled to 30 m, and the temporal resolution is daily with a 5 day revisit time. The imagery is available in Worldview/GIBS approximately 2 - 4 days after satellite overpass. There is a separate combined Landsat 8 and 9 imagery layer available.
+
+On January 21, 2025, the Sentinel-2C satellite replaced Sentinel-2A satellite. A temporary one year extension campaign of Sentinel-2A began on March 13, 2025. This campaign provides increased observations over Europe, and tropical regions of Africa and South America. In addition, it was announced that the campaign has been extended to the end of 2026.
+
+This layer contains a mix of imagery from Sentinel-2A, Sentinel-2B, and Sentinel-2C:
+
+Sentinel-2A: November 28, 2015 to January 22, 2025; March 14, 2025 to December 31, 2026.
+Sentinel-2B: September 18, 2017 to Present
+Sentinel-2C: January 21, 2025 to Present
+This imagery layer is provided dynamically through the TiTiler-CMR API developed by Office of Data Science and Informatics (ODSI) at Marshall Space Flight Center. As it is dynamically generated, it may take slightly longer to display than normal. The imagery is only available at higher zoom levels.
+
+References: HLSS30 v002 doi:10.5067/HLS/HLSS30.002
+
+HLS SENTINEL-2 MSI NBR - Normalized Burn Ratio
+Temporal coverage: 28 November 2015 - Present
+In the context of wildland fire management, Normalized Burn Ratio (NBR) data derived from satellite observations before and after a wildland fire can be used in change detection analyses to map the extent of a burned area and the magnitude of vegetation burn severity throughout the area. This information is used to support post-fire response and recovery planning actions. Like the Normalized Differenced Moisture Index (NDMI), NBR is also a good indicator for assessing the condition and health of vegetation affected by drought stress.
+
+NOTE: This layer is undergoing beta testing.
+
+The dynamically generated Normalized Burn Ratio (NBR) imagery layer is used to delineate burned areas and measure the variability of fire effects (burn severity) within those areas. The water content present in healthy vegetation, saturated soils, open water bodies, etc. strongly absorbs shortwave infrared light while the structure of vegetation biomass strongly reflects near infrared light. NBR is calculated using the reflectance of the “narrow” near infrared band (Band 8A) and the 2.1 µm shortwave infrared band (Band 12) in HLS S30 imagery. It is calculated as a ratio between the NIR and SWIR values.
+
+NBR = (NIR - SWIR) / (NIR + SWIR)
+
+Specifically for Sentinel-2:
+
+NBR = (Band 8A – Band 12) / (Band 8A + Band 12)
+
+The divergent purple to orange color palette depicts vegetated areas in shades of purple and burned areas in shades of orange. NBR values range from -1 to 1. Decreasing NBR values within burned areas indicate increasing damage to vegetation density and vigor resulting from fire, increasing presence of ash from burned vegetation, and the increasing exposure of bare, dry soils and rocky areas. Recently burned areas present NBR values that are typically 0 to strongly negative. NBR values increasing from 0 to 1 represent increasingly healthy, undamaged vegetation only lightly burned or not at all affected by fire.
+
+The Reflectance imagery layer from Sentinel-2/MSI product (S30) is available through the HLS project from the Multi-Spectral Instrument (MSI) aboard the European Union’s Copernicus Sentinel-2A, Sentinel-2B, and Sentinel-2C satellites. The sensor resolution is 10, 20, and 60 m, imagery resolution is resampled to 30 m, and the temporal resolution is daily with a 5 day revisit time. The imagery is available in Worldview/GIBS approximately 2 - 4 days after satellite overpass. There is a separate combined Landsat 8 and 9 imagery layer available.
+
+On January 21, 2025, the Sentinel-2C satellite replaced Sentinel-2A satellite. A temporary one year extension campaign of Sentinel-2A began on March 13, 2025. This campaign provides increased observations over Europe, and tropical regions of Africa and South America. In addition, it was announced that the campaign has been extended to the end of 2026.
+
+This layer contains a mix of imagery from Sentinel-2A, Sentinel-2B, and Sentinel-2C:
+
+Sentinel-2A: November 28, 2015 to January 22, 2025; March 14, 2025 to December 31, 2026.
+Sentinel-2B: September 18, 2017 to Present
+Sentinel-2C: January 21, 2025 to Present
+This imagery layer is provided dynamically through the TiTiler-CMR API developed by Office of Data Science and Informatics (ODSI) at Marshall Space Flight Center. As it is dynamically generated, it may take slightly longer to display than normal. The imagery is only available at higher zoom levels.
+
+References: HLSS30 v002 doi:10.5067/HLS/HLSS30.002
+
+HLS SENTINEL-2 MSI NBR2 - Normalized Burn Ratio 2
+Temporal coverage: 28 November 2015 - Present
+NOTE: This layer is undergoing beta testing.
+
+The dynamically generated Normalized Burn Ratio 2 (NBR2) imagery layer is a variant of the Normalized Burn Ratio (NBR). It is used to highlight water sensitivity in vegetation and can potentially be used to assess post-fire vegetation conditions. The water content present in healthy vegetation, saturated soils, open water bodies, etc. are strongly absorbed by shortwave infrared light at 1.6 µm and 2.1 µm, relatively more so for the latter. The 1.6 µm band is particularly sensitive to moisture content within vegetation and can aid in discriminating between woody and non-woody vegetation types, while the 2.1 µm band provides additional overall sensitivity to moisture in vegetation and soils. NBR is calculated using the reflectance of the 1.6 µm shortwave infrared band (Band 11) and the 2.1 µm shortwave infrared band (Band 12) in HLS S30 imagery.
+
+NBR2 = (SWIR1 – SWIR2) / (SWIR1 + SWIR2)
+
+Specifically for Sentinel-2:
+
+NBR2 = (Band 11 – Band 12) / (Band 11 + Band 12)
+
+The divergent purple to orange color palette depicts vegetated areas in shades of purple and burned areas in shades of orange. NBR2 values range from -1 to 1. NBR2 values on this continuum generally provide similar information to the NBR. NBR2 values at 0 and progressively negative indicate increased vegetation damage and soil exposure resulting from fire while increasingly positive NBR2 values after a fire represent lightly damaged to unburned vegetation. NBR2 can aid in identifying small variations in the moisture content, health and stage of recovery for vegetation that has been affected by fire. Additionally, compared to other indices like the NBR, NBR2 can be more ideal for delineating the extent of burned areas and the mosaic of severity within those boundaries for fires occurring in particular biomes where the burn signal may be relatively more subtle. Such examples include grass/shrubland environments where the vegetation outside of the burned areas are senesced or herbaceous wetland areas and coastal marshes characterized by saturated soils.
+
+The Reflectance imagery layer from Sentinel-2/MSI product (S30) is available through the HLS project from the Multi-Spectral Instrument (MSI) aboard the European Union’s Copernicus Sentinel-2A, Sentinel-2B, and Sentinel-2C satellites. The sensor resolution is 10, 20, and 60 m, imagery resolution is resampled to 30 m, and the temporal resolution is daily with a 5 day revisit time. The imagery is available in Worldview/GIBS approximately 2 - 4 days after satellite overpass. There is a separate combined Landsat 8 and 9 imagery layer available.
+
+On January 21, 2025, the Sentinel-2C satellite replaced Sentinel-2A satellite. A temporary one year extension campaign of Sentinel-2A began on March 13, 2025. This campaign provides increased observations over Europe, and tropical regions of Africa and South America. In addition, it was announced that the campaign has been extended to the end of 2026.
+
+This layer contains a mix of imagery from Sentinel-2A, Sentinel-2B, and Sentinel-2C:
+
+Sentinel-2A: November 28, 2015 to January 22, 2025; March 14, 2025 to December 31, 2026.
+Sentinel-2B: September 18, 2017 to Present
+Sentinel-2C: January 21, 2025 to Present
+This imagery layer is provided dynamically through the TiTiler-CMR API developed by Office of Data Science and Informatics (ODSI) at Marshall Space Flight Center. As it is dynamically generated, it may take slightly longer to display than normal. The imagery is only available at higher zoom levels.
+
+References: HLSS30 v002 doi:10.5067/HLS/HLSS30.002
+
+HLS SENTINEL-2 MSI NDMI - Normalized Difference Moisture Index
+Temporal coverage: 28 November 2015 - Present
+In the context of wildland fire management, Normalized Difference Moisture Index (NDMI) can provide relevant information on the moisture content of fuels and their susceptibility to increased fire risk.
+
+NOTE: This layer is undergoing beta testing.
+
+The dynamically generated Normalized Difference Moisture Index (NDMI) imagery layer is an index to determine vegetation water content and monitor drought. NDMI is sensitive to liquid water content in vegetation and can provide an indicator of vegetation stress due to drought. The water content present in healthy vegetation strongly absorbs shortwave infrared light while the structure of leaves strongly reflects near infrared light. NDMI is calculated using the reflectance of the “narrow” near infrared band (Band 8A) and 1.6 µm shortwave infrared band (Band 11) in HLS S30 imagery.
+
+NDMI = (B8A-B11)/(B8A+B11)
+
+The image is applied with a divergent blue to red color palette. Darker blue colors represent high canopy without water stress, and red colors are areas approaching water stress. NDMI values range from -1 to 1. Decreasing NDMI values for vegetated areas indicate increasingly less water content and increased stress due to drought with the lowest values generally corresponding to completely senesced vegetation or barren areas (rock, sand, exposed soil, built-up areas, etc.). High NDMI values represent healthy, unstressed vegetation (irrigated croplands, wetlands, lush forests, etc.).
+
+The Reflectance imagery layer from Sentinel-2/MSI product (S30) is available through the HLS project from the Multi-Spectral Instrument (MSI) aboard the European Union’s Copernicus Sentinel-2A, Sentinel-2B, and Sentinel-2C satellites. The sensor resolution is 10, 20, and 60 m, imagery resolution is resampled to 30 m, and the temporal resolution is daily with a 5 day revisit time. The imagery is available in Worldview/GIBS approximately 2 - 4 days after satellite overpass. There is a separate combined Landsat 8 and 9 imagery layer available.
+
+On January 21, 2025, the Sentinel-2C satellite replaced Sentinel-2A satellite. A temporary one year extension campaign of Sentinel-2A began on March 13, 2025. This campaign provides increased observations over Europe, and tropical regions of Africa and South America. In addition, it was announced that the campaign has been extended to the end of 2026.
+
+This layer contains a mix of imagery from Sentinel-2A, Sentinel-2B, and Sentinel-2C:
+
+Sentinel-2A: November 28, 2015 to January 22, 2025; March 14, 2025 to December 31, 2026.
+Sentinel-2B: September 18, 2017 to Present
+Sentinel-2C: January 21, 2025 to Present
+This imagery layer is provided dynamically through the TiTiler-CMR API developed by Office of Data Science and Informatics (ODSI) at Marshall Space Flight Center. As it is dynamically generated, it may take slightly longer to display than normal. The imagery is only available at higher zoom levels.
+
+References: HLSS30 v002 doi:10.5067/HLS/HLSS30.002
+
+HLS SENTINEL-2 MSI NDVI - Normalized Difference Vegetation Index
+Temporal coverage: 28 November 2015 - Present
+In the context of wildland fire management, Normalized Difference Vegetation Index (NDVI) has historically been used to assess the condition and health of vegetation affected by drought stress. Additionally, similar to the Normalized Burn Ratio (NBR), NDVI can be used to map the extent of burned areas and assess fire impacts to aboveground vegetation.
+
+NOTE: This layer is undergoing beta testing.
+
+The dynamically generated Normalized Difference Vegetation Index (NDVI) imagery layer is an index for quantifying green vegetation. NDVI is used to quantify vegetation greenness, understand vegetation density and monitor plant health. In healthy vegetation, chlorophyll strongly absorbs visible light while the structure of leaves strongly reflects near infrared light. NDVI is calculated using the reflectance of the red band (Band 4) and near infrared band (Band 8A) in HLS S30 imagery.
+
+NDVI = (B8-B4)/(B8+B4)
+
+The image is applied with a divergent blue-green to brown color palette. It depicts areas with a lot of green leaf growth, indicating the presence of chlorophyll, in dark green colors. Chlorophyll reflects more infrared light and less visible light. Areas with some green leaf growth are in light yellows, and areas with little to no vegetation growth are in shades of brown. NDVI values range from -1 to 1. Low NDVI values, at or near 0, generally correspond to barren areas (rock, sand, exposed soil, snow, etc.) while high NDVI values (0.8 to 0.9) represent greener, denser vegetation (forests, croplands, wetlands, etc.).
+
+The Reflectance imagery layer from Sentinel-2/MSI product (S30) is available through the HLS project from the Multi-Spectral Instrument (MSI) aboard the European Union’s Copernicus Sentinel-2A, Sentinel-2B, and Sentinel-2C satellites. The sensor resolution is 10, 20, and 60 m, imagery resolution is resampled to 30 m, and the temporal resolution is daily with a 5 day revisit time. The imagery is available in Worldview/GIBS approximately 2 - 4 days after satellite overpass. There is a separate combined Landsat 8 and 9 imagery layer available.
+
+On January 21, 2025, the Sentinel-2C satellite replaced Sentinel-2A satellite. A temporary one year extension campaign of Sentinel-2A began on March 13, 2025. This campaign provides increased observations over Europe, and tropical regions of Africa and South America. In addition, it was announced that the campaign has been extended to the end of 2026.
+
+This layer contains a mix of imagery from Sentinel-2A, Sentinel-2B, and Sentinel-2C:
+
+Sentinel-2A: November 28, 2015 to January 22, 2025; March 14, 2025 to December 31, 2026.
+Sentinel-2B: September 18, 2017 to Present
+Sentinel-2C: January 21, 2025 to Present
+This imagery layer is provided dynamically through the TiTiler-CMR API developed by Office of Data Science and Informatics (ODSI) at Marshall Space Flight Center. As it is dynamically generated, it may take slightly longer to display than normal. The imagery is only available at higher zoom levels.
+
+References: HLSS30 v002 doi:10.5067/HLS/HLSS30.002
+
+Overlays
+Coastlines / Borders / Roads - BASIC
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The Coastlines/Borders/Roads layer is a reference layer that displays global coastlines, country borders, first order administrative boundaries and major roads.
+
+Coastlines/Borders/Roads information are gleaned from OpenStreetMap and Natural Earth.
+
+Coastlines / Borders / Roads - DETAILED
+This (v2) vector tile layer provides a detailed reference layer for the world designed to be overlaid on imagery. It uses WGS84 Geographic, version 2 tiling scheme.
+
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+more details 
+
+European Regional Protected Areas
+This layer is from the World Database on Protected Areas (WDPA) (November 2025) and is the most comprehensive global database of marine and terrestrial protected areas and is one of the key global biodiversity datasets being widely used by scientists, businesses, governments, International secretariats and others to inform planning, policy decisions and management.
+
+The WDPA is a joint project between UN Environment and the International Union for Conservation of Nature (IUCN). The compilation and management of the WDPA is carried out by UN Environment World Conservation Monitoring Centre (UNEP-WCMC), in collaboration with governments, non-governmental organisations, academia and industry. There are monthly updates of the data which are made available online through the Protected Planet website where the data is both viewable and downloadable.
+
+Source: UNEP-WCMC and IUCN, Protected Planet: The World Database on Protected Areas (WDPA) November 2025, Cambridge, UK: UNEP-WCMC and IUCN
+
+more details 
+
+Human Built-up And Settlement Extent
+The Human Built-up And Settlement Extent layer is from the Global Human Built-up And Settlement Extent (HBASE) Dataset from Landsat. It is a global map of HBASE derived from the Global Land Survey (GLS) Landsat dataset for the target year 2010. The layer is differentiated into three categories, "Not HBASE", "HBASE" and "Road". The spatial resolution is 30m. The spatial extent covers the entire globe except Antarctica and some small islands.
+
+The dataset is expected to have a rather broad spectrum of users, from those wishing to examine/study the fine details of urban land cover over the globe at full 30m resolution to global modelers trying to understand the climate/environmental impacts of man-made surfaces at continental to global scales. For example, the data are applicable to local modeling studies of urban impacts on the energy, water, and carbon cycles, as well as analyses at the individual country level.
+
+References: doi:10.7927/H4DN434S
+
+Latitude-Longitude Lines
+The Latitude-Longitude Lines layers is a vector layer displaying the grid/graticule of latitude and longitude lines over the globe.
+
+Source: OpenLayers
+
+more details 
+
+Protected Areas
+This layer is from the World Database on Protected Areas (WDPA) (November 2025) and is the most comprehensive global database of marine and terrestrial protected areas and is one of the key global biodiversity datasets being widely used by scientists, businesses, governments, International secretariats and others to inform planning, policy decisions and management.
+
+The WDPA is a joint project between UN Environment and the International Union for Conservation of Nature (IUCN). The compilation and management of the WDPA is carried out by UN Environment World Conservation Monitoring Centre (UNEP-WCMC), in collaboration with governments, non-governmental organisations, academia and industry. There are monthly updates of the data which are made available online through the Protected Planet website where the data is both viewable and downloadable.
+
+Source: UNEP-WCMC and IUCN, Protected Planet: The World Database on Protected Areas (WDPA) November 2025, Cambridge, UK: UNEP-WCMC and IUCN
+
+more details 
+
+Snow Cover (Normalized Difference Snow Index) VIIRS NOAA-20
+Temporal coverage: 05 January 2018 - Present
+In the context of fire management, this dataset is added to FIRMS for use by fire managers to monitor annual recession of the snow line to inform when/where to start monitoring for the potential risk of wildland fire activity.
+
+The Snow Cover (Normalized Difference Snow Index (NDSI)) layer shows an estimate of snow cover. It is derived from radiance data acquired by the Visible Infrared Imaging Radiometer Suite (VIIRS) aboard the Joint Polar Satellite System's first satellite (JPSS-1/NOAA-20). Snow-covered land typically has very high reflectance in visible bands and very low reflectance in the shortwave infrared bands. The Normalized Difference Snow Index (NDSI) reveals the magnitude of this difference, with values greater than 0 typically indicating the presence of at least some snow. The VIIRS snow cover algorithm computes NDSI using VIIRS image bands I1 (0.64 µm, visible red) and I3 (1.61 µm, shortwave near-infrared) and then applies a series of data screens designed to alleviate likely errors and flag uncertain snow detections.
+
+The Snow Cover (Normalized Difference Snow Index) layer is available from both the joint NASA/NOAA Suomi NPP (VNP10) and NOAA-20 (VJ110) satellites. The sensor resolution is 375 m, imagery resolution is 500 m, and the temporal resolution is daily.
+
+References: VJ110_NRT doi:10.5067/VIIRS/VJ110_NRT.002; VJ110 doi:10.5067/JNKFY4XFDHRN
+
+Volcanoes
+The Global Volcanism Program database currently contains 1,289 volcanoes with eruptions during the Holocene period (approximately the last 10,000 years).
+
+Suggested Citation: Global Volcanism Program, 2025. [Database] Volcanoes of the World (v. 5.3.6; 26 May 2026). Distributed by Smithsonian Institution, compiled by Venzke, E. https://doi.org/10.5479/si.GVP.VOTW5-2025.5.3
+
+more details 
+
+Smoke
+SNPP OMPS Aerosol Index
+Temporal coverage: 26 January 2012 - Present
+The OMPS Aerosol Index layer indicates the presence of ultraviolet (UV)-absorbing particles in the air (aerosols) such as desert dust and soot particles in the atmosphere; it is related to both the thickness of the aerosol layer located in the atmosphere and to the height of the layer.
+
+The Aerosol Index is a unitless range from < 0 to >= 5, where 5 indicates heavy concentrations of aerosols that could reduce visibility or impact human health such as dust storms or biomass burning smoke located in the lower troposphere (1-3 km).
+
+The Aerosol Index layer is useful for identifying and tracking the long-range transport of volcanic ash from volcanic eruptions, smoke from wildfires or biomass burning events and dust from desert dust storms, even tracking over clouds and areas of snow and ice. For Aerosol Index values higher than 5, use the Aerosol Index (PyroCumuloNimbus) layer from Suomi NPP/OMPS. Larger aerosol index values between 5 and 10 usually indicate dense smoke from intensely burning fires that reach higher in the troposphere. Once the aerosol index gets above 10, the smoke has likely been produced from a pyrocumulonimbus event, with dense smoke lofted into the upper troposphere and, often, into the stratosphere.
+
+The OMPS Aerosol Index layer is a science parameter of the Ozone Mapping and Profiler Suite (OMPS)/ National Polar orbiting Partnership (NPP) (OMPS-NPP) L2 NM Aerosol Index swath orbital V2 (OMPS_NPP_NMMIEAI_L2) available from the OMPS Nadir-Mapper instrument on the Suomi National Polar orbiting Partnership (Suomi NPP) satellite. The aerosol index is derived from normalized radiances using 2 wavelength pairs at 340 and 378.5 nm. The sensor resolution is 50 km, imagery resolution is 2 km, and the temporal resolution is daily.
+
+References: NMMIEAI-L2-NRT; OMPS_NPP_NMMIEAI_L2 doi:10.5067/40L92G8144IV
+
+SNPP OMPS Aerosol Index PyroCumuloNimbus
+Temporal coverage: 26 January 2012 - Present
+The OMPS Aerosol Index (PyroCumuloNimbus) layer indicates the presence of ultraviolet (UV)-absorbing particles in the air (aerosols) such as desert dust, smoke, and volcanic ash in the atmosphere; it is related to both the thickness of the aerosol layer located in the atmosphere and to the height of the layer.
+
+The Aerosol Index (PyroCumuloNimbus) layer is useful for identifying and tracking the extent and spread of pyrocumulonimbus and other high-aerosol events in the atmosphere. The layer has a unitless range from < 0 to >= 50. It differs from the Aerosol Index layer which detects aerosol index values between 0 and 5, because in the case of pyrocumulonimbus events, which are both dense and high in the atmosphere, the aerosol index value can easily become much larger than 5. Larger aerosol index values between 5 and 10 usually indicate dense smoke from intensely burning fires that reach higher in the troposphere, and once the aerosol index value is above 7*, the smoke has likely been produced from a pyrocumulonimbus event, with dense smoke lofted into the upper troposphere, and often, into the stratosphere.
+
+*Note that the algorithm used for OMPS Aerosol Index on Suomi NPP is slightly different from the one used for NOAA-20 and produces slightly lower Aerosol Index values than for NOAA-20. For NOAA-20, once the aerosol index value is above 10, the smoke has likely been produced from a pyrocumulonimbus event.
+
+The OMPS Aerosol Index (PyroCumuloNimbus) layer is a science parameter of the Ozone Mapping and Profiler Suite (OMPS)/ National Polar orbiting Partnership (NPP) (OMPS-NPP) L2 NM Aerosol Index swath orbital V2 (OMPS_NPP_NMMIEAI_L2) available from the OMPS Nadir-Mapper instrument on the Suomi National Polar orbiting Partnership (Suomi NPP) satellite. The aerosol index is derived from normalized radiances using 2 wavelength pairs at 340 and 378.5 nm. The sensor resolution is 50 km, imagery resolution is 2 km, and the temporal resolution is daily.
+
+References: NMMIEAI-L2-NRT; OMPS_NPP_NMMIEAI_L2 doi:10.5067/40L92G8144IV; Earthdata - OMPS Product Provides a Better View of High-Aerosol Events
+
+NOAA-20 OMPS Aerosol Index
+Temporal coverage: 28 April 2025 - Present
+The Aerosol Index at 380nm layer indicates the presence of ultraviolet (UV)-absorbing particles in the air (aerosols) such as desert dust, volcanic ash, and smoke particles in the atmosphere; it is related to both the thickness of the aerosol layer located in the atmosphere and to the height of the layer.
+
+The Aerosol Index is a unitless value that typically ranges from 0 to 5, with higher values indicating heavier concentrations that could reduce visibility or impact human health such as dust storms or biomass burning smoke located in the lower troposphere (1-3 km).
+
+The layer is useful for identifying and tracking the long-range transport of volcanic ash from volcanic eruptions, smoke from wildfires or biomass burning events and dust from desert dust storms, even tracking over clouds and areas of snow and ice. Larger aerosol index values between 5 and 10 usually indicate dense smoke from intensely burning fires that reach higher in the troposphere. An AI value above 10 usually indicates aerosols produced by an extreme event, such as smoke from a pyroCb cloud or ash from a volcanic eruption; both types of events can loft such aerosols into the upper troposphere and, often, into the stratosphere. For AI values higher than 5, use the corresponding Aerosol Index (PyroCumuloNimbus) at 380nm layer.
+
+The Aerosol Index layer at 380nm is a science parameter of the Ozone Mapping and Profiler Suite (OMPS)-N20 L2 NM Aerosol Index swath orbital NRT (OMPS_N20_NMUVAI_L2_NRT) available from the OMPS Nadir-Mapper instrument on the NOAA-20 satellite. The aerosol index is derived from sun-normalized radiances (S-NRs) measured at 340 and 378.5 nm. It is essentially the difference between the measured S-NR at 378.5 nm and one calculated using a reflectivity determined from the 340 nm wavelength while assuming an atmosphere free of smoke, ash, or dust. The sensor resolution is, at nadir, approximately 12 km cross-track by 17 km along-track; the temporal resolution is daily.
+
+References: OMPS_N20_NMUVAI_L2_NRT
+
+NOAA-20 OMPS Aerosol Index PyroCumuloNimbus
+Temporal coverage: 28 April 2025 - Present
+The Aerosol Index (PyroCumuloNimbus) at 380nm layer is similar to the Aerosol Index at 380nm layer; the expanded range is geared towards the study of not only pyrocumulonimbus (pyroCb) events (which can have values anywhere from 10 to as much as 50) but other extreme events including heavy smoke from large fire clusters (with AI values between 5 and 10) and ash from volcanic eruptions (from 10 to 20 and above).
+
+The Aerosol Index (PyroCumuloNimbus) at 380nm layer is a science parameter of the Ozone Mapping and Profiler Suite (OMPS)-N20 L2 NM Aerosol Index swath orbital NRT (OMPS_N20_NMUVAI_L2_NRT) available from the OMPS Nadir-Mapper instrument on the NOAA-20 satellite. The aerosol index is derived from sun-normalized radiances (S-NRs) measured at 340 and 378.5 nm. It is essentially the difference between the measured S-NR at 378.5 nm and one calculated using a reflectivity determined from the 340 nm wavelength while assuming an atmosphere free of smoke, ash, or dust. The sensor resolution is, at nadir, approximately 12 km cross-track by 17 km along-track; the temporal resolution is daily.
+
+References: OMPS_N20_NMUVAI_L2_NRT
+
+NOAA-21 OMPS Aerosol Index
+Temporal coverage: 28 April 2025 - Present
+The Aerosol Index at 380nm layer indicates the presence of ultraviolet (UV)-absorbing particles in the air (aerosols) such as desert dust, volcanic ash, and smoke particles in the atmosphere; it is related to both the thickness of the aerosol layer located in the atmosphere and to the height of the layer.
+
+The Aerosol Index is a unitless value that typically ranges from 0 to 5, with higher values indicating heavier concentrations that could reduce visibility or impact human health such as dust storms or biomass burning smoke located in the lower troposphere (1-3 km).
+
+The layer is useful for identifying and tracking the long-range transport of volcanic ash from volcanic eruptions, smoke from wildfires or biomass burning events and dust from desert dust storms, even tracking over clouds and areas of snow and ice. Larger aerosol index values between 5 and 10 usually indicate dense smoke from intensely burning fires that reach higher in the troposphere. An AI value above 10 usually indicates aerosols produced by an extreme event, such as smoke from a pyroCb cloud or ash from a volcanic eruption; both types of events can loft such aerosols into the upper troposphere and, often, into the stratosphere. For AI values higher than 5, use the corresponding Aerosol Index (PyroCumuloNimbus) at 380nm layer.
+
+The Aerosol Index layer at 380nm is a science parameter of the Ozone Mapping and Profiler Suite (OMPS)-N21 L2 NM Aerosol Index swath orbital NRT (OMPS_N21_NMUVAI_L2_NRT) available from the OMPS Nadir-Mapper instrument on the NOAA-21 satellite. The aerosol index is derived from sun-normalized radiances (S-NRs) measured at 340 and 378.5 nm. It is essentially the difference between the measured S-NR at 378.5 nm and one calculated using a reflectivity determined from the 340 nm wavelength while assuming an atmosphere free of smoke, ash, or dust. The sensor resolution is, at nadir, approximately 12 km cross-track by 17 km along-track; the temporal resolution is daily.
+
+References: OMPS_N21_NMUVAI_L2_NRT
+
+NOAA-21 OMPS Aerosol Index PyroCumuloNimbus
+Temporal coverage: 28 April 2025 - Present
+The Aerosol Index (PyroCumuloNimbus) at 380nm layer is similar to the Aerosol Index at 380nm layer; the expanded range is geared towards the study of not only pyrocumulonimbus (pyroCb) events (which can have values anywhere from 10 to as much as 50) but other extreme events including heavy smoke from large fire clusters (with AI values between 5 and 10) and ash from volcanic eruptions (from 10 to 20 and above).
+
+The Aerosol Index (PyroCumuloNimbus) at 380nm layer is a science parameter of the Ozone Mapping and Profiler Suite (OMPS)-N21 L2 NM Aerosol Index swath orbital NRT (OMPS_N21_NMUVAI_L2_NRT) available from the OMPS Nadir-Mapper instrument on the NOAA-21 satellite. The aerosol index is derived from sun-normalized radiances (S-NRs) measured at 340 and 378.5 nm. It is essentially the difference between the measured S-NR at 378.5 nm and one calculated using a reflectivity determined from the 340 nm wavelength while assuming an atmosphere free of smoke, ash, or dust. The sensor resolution is, at nadir, approximately 12 km cross-track by 17 km along-track; the temporal resolution is daily.
+
+References: OMPS_N21_NMUVAI_L2_NRT
+
+Experimental
+Cement Plants
+This layer provides locations of more than 3,100 cement plants. Information provided for each plant includes name/owner, production type, status, unique identifier and geographic coordinates. The data are intended for visualization in the context of satellite active fire detections to identify activity potentially not associated with vegetation fires. This includes detections spatially associated with cement plants, which typically use a heating process to produce cement, and are active and generating a detectable thermal signature at the time of satellite overpass.
+
+These data are provided for reference purposes only and should be used with caution. The source data for this layer is maintained and provided by the Spatial Finance Initiative.
+
+Suggested citation: McCarten, M., Bayaraa, M., Caldecott, B., Christiaen, C., Foster, P., Hickey, C., Kampmann, D., Layman, C., Rossi, C., Scott, K., Tang, K., Tkachenko, N., and Yoken, D. 2021. Global Database of Cement Production Assets. Spatial Finance Initiative
+
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+more details 
+
+Gas Flares
+This layer provides locations of more than 145,640 gas flares inventoried between 2012 and 2023. Information provided for each flare location includes type, unique identifier, year of inventory, flare size* (in million standard cubic feet per day [mmscfd]), flare volume [in million m3] and geographic coordinates. The data are intended for visualization in the context of satellite active fire detections to identify activity potentially not associated with vegetation fires. This includes detections spatially associated with flares that are active and generating a detectable thermal signature at the time of satellite observation. *Large [>50 mmscfd], Medium [5-50 mmscfd], and Small [<5 mmscfd].
+
+These data are provided for reference purposes only and should be used with caution. The source data for this layer is maintained and provided by the World Bank in partnership with the National Oceanic and Atmospheric Administration and the Colorado School of Mines.
+
+more details 
+
+Iron and Steel Plants
+This layer provides locations of more than 1,598 iron and steel production plants. Information provided for each plant includes name/owner, status, unique identifier and geographic coordinates. The data are intended for visualization in the context of satellite active fire detections to identify activity potentially not associated with vegetation fires. This includes detections spatially associated with iron and steel plants, which typically use coal or electric powered furnaces, and are active and generating a detectable thermal signature at the time of satellite overpass. Some features included in this layer capture other upstream and downstream processes relative to the iron and steel making process such as procurement and processing of raw materials and production of finished products that will likely not produce any detectable thermal activity.
+
+These data are provided for reference purposes only and should be used with caution. The source data for this layer is maintained and provided by the Spatial Finance Initiative.
+
+Suggested citation: McCarten, M., Bayaraa, M., Caldecott, B., Christiaen, C., Foster, P., Hickey, C., Kampmann, D., Layman, C., Rossi, C., Scott, K., Tang, K., Tkachenko, N., and Yoken, D., 2021. Global Database of Iron and Steel Production Assets. Spatial Finance Initiative
+
+more details 
+
+Mineral Resources
+This layer contains locations from the Mineral Resources Data System (MRDS) and the Minerals Availability System/Minerals Industry Location System (MAS/MILS). Information provided for each location includes name/owner, type of facility (if available), unique identifier and geographic coordinates.
+
+The data are intended for visualization in the context of satellite active fire detections to identify activity potentially not associated with vegetation fires. This includes detections spatially associated with metallic and nonmetallic mineral resources, deposits, and commodities from the MRDS, and mines and mineral processing plants from the MILS that are active and generating a detectable thermal signature at the time of satellite overpass.
+
+These data are provided for reference purposes only and should be used with caution. The source data for this layer is the U.S. Geological Survey.
+
+Suggested citation: U.S. Geological Survey Mineral Databases; MRDS and MAS/MILS, US Geological Survey, 2000.
+
+more details 
+
+Nonferrous Metal Plants
+This layer provides locations of more than 71 nonferrous metal processing plants in the United States considered active in 2003. Information provided for each plant includes name/owner, type, unique identifier and geographic coordinates. The data are intended for visualization in the context of satellite active fire detections to identify activity potentially not associated with vegetation fires. This includes detections spatially associated with nonferrous metal plants, which typically use fossil fuels to heat furnaces for smelting processes, and are active and generating a detectable thermal signature at the time of satellite overpass.
+
+These data are provided for reference purposes only and should be used with caution. The source data for this layer is maintained and provided by the US Geological Survey Minerals Information Team.
+
+more details 
+
+Petro Chemical Plants
+This layer provides locations of more than 295 petrochemical and petroleum refining plants in Europe and North America. Information provided for each plant includes name/owner, type, status, unique identifier and geographic coordinates. The data are intended for visualization in the context of satellite active fire detections to identify activity potentially not associated with vegetation fires. This includes detections spatially associated with petrochemical and petroleum refining plants, which use fossil fuel combustion to produce products, and are active and generating a detectable thermal signature at the time of satellite overpass.
+
+The data are provided for reference purposes only and should be used with caution. The source data for this layer is maintained and provided by the Spatial Finance Initiative.
+
+Suggested citation: McCarten, M, Spatial Finance Initiative Petrochemicals Database for Europe and North America (April 2022)
+
+more details 
+
+Power Plants
+This layer provides locations of 35,000 operational power plants generating over one megawatt, including thermal (e.g., coal, gas, oil, nuclear, biomass, waste, geothermal) and renewables (e.g., hydro, wind, solar). Information provided for each plant includes primary fuel, name, capacity (megawatts), unique identifier and geographic coordinates. The data are intended for visualization in the context of satellite active fire detections to identify activity potentially not associated with vegetation fires. This includes detections spatially associated with plants actively burning and generating a detectable thermal signature at the time of satellite overpass. Active fire detections spatially associated with solar plants may potentially be false detections due to glint from highly reflective surfaces of solar arrays.
+
+These data are provided for reference purposes only and should be used with caution. The source data for this layer is maintained and provided by the World Resources Institute (WRI).
+
+more details 
+
+Icon attibution:
+Ray icons created by prettycons - Flaticon
+Windmill icon
+Coal icon
+
+Static Thermal Anomalies - Detections
+This layer consists of MODIS, VIIRS and Landsat active fire detection activity intersecting with or adjacent to the 'STA - Mask' for the date / time range selected (using the calendar or timeline). The date / time range will be coincident with the fires / hotspots when displayed.
+
+Static Thermal Anomalies - Mask
+This layer is derived from the global analysis of 375m S-NPP VIIRS active fire detection data for calendar year 2023. The centroids of active fire detections are summarized on a 400m grid. Each grid cell containing 5 or more active fire detection counts over the course of the year are extracted to create a mask of frequently observed or static thermal activity. The resulting mask is spatially filtered using multiple industrial/power plant location datasets in an effort to limit the mask to areas not associated with vegetation fires.
+
+These data are provided for reference purposes only and should be used with caution. This layer is developed by NASA FIRMS and is not available for distribution.
+
+Steel Plants
+This layer provides locations of more than 1,400 iron and steel production plants. Information provided for each plant includes name/owner, status, unique identifier and geographic coordinates. The data are intended for visualization in the context of satellite active fire detections to identify activity potentially not associated with vegetation fires. This includes detections spatially associated with iron and steel plants, which typically use coal or electric powered furnaces, and are active and generating a detectable thermal signature at the time of satellite overpass. Some features included in this layer include other upstream and downstream processes relative to the iron and steel making process such as procurement and processing of raw materials and production of finished products that will likely not produce any detectable thermal activity.
+
+These data are provided for reference purposes only and should be used with caution. The source data for this layer is maintained and provided by the Global Energy Monitor.
+
+Recommended citation: Global Steel Plant Tracker, Global Energy Monitor, April 2024 (V1) release.
+
+more details 
+
+VIIRS Modeled Fire Perimeters
+Temporal coverage: January 2024 - present
+The VIIRS Modeled Fire Perimeters product uses the Fire Event Data Suite (FEDS) algorithm (Chen et al., 2022), an alpha shape approach to estimate the perimeter and properties of ongoing fire events every 12 hours, based on Visible Infrared Imaging Radiometer Suite (VIIRS) 375 m active fire detections (hereafter "modeled fire perimeters").
+
+The FEDS algorithm clusters active fire detections into individual events, estimates the fire perimeter and fire characteristics, and tracks fire growth for each 12-hour time step. The vector data product includes multiple attributes for each modeled perimeter, including the active portion of the fire perimeter and metrics of fire behavior for each 12-hour growth increment. The FEDS algorithm inherits the spatial resolution and geolocation accuracy of the VIIRS 375 m active fire product from the Suomi-NPP and NOAA-20 satellites (see Disclaimer, above) and models the fire perimeter every 12 hours to generate a vector output. Integration of NOAA-21 VIIRS active fire detection data may be included in future updates of the algorithm. The VIIRS Modeled Fire Perimeter data are produced within approximately four hours of each VIIRS overpass for the Continental United States (CONUS) and Canada.
+
+For all fire events, regardless of fire size or duration, the FEDS algorithm provides a "snapshot" of the modeled fire perimeter every 12 hours. For fires that ultimately grow larger than 5 km2, these modeled perimeters and associated attributes are stored in sequence to track the growth and behavior of each large fire event.
+
+The source code used to generate the VIIRS Modeled Fire Perimeter data using the FEDS algorithm is available on GitHub. The GitHub project page provides further information on the FEDS algorithm and near-real time FEDS data, and the UC-I/NASA Fire Tracking Page provides links to publications and datasets from the project team. An example notebook that demonstrates how to subset, analyze, and visualize the data outside of FIRMS is available on NASA's Visualization, Exploration and Data Analysis (VEDA) platform. Finally, the VIIRS Modeled Fire Perimeter data based on the FEDS algorithm are also available via OGC API.
+
+The VIIRS Modeled fire Perimeter data are provided by the NASA Earth Information System (EIS) Project. The FEDS algorithm was developed by Yang Chen and colleagues at the University of California-Irvine, NASA's Goddard Space Flight Center (GSFC), Cardiff University (UK), and Universidad del Rosario (Colombia), as described in a scientific paper published in 2022 (Chen et al., 2022).
+
+Reference:
+Chen Y, Hantson S, Andela N, Coffield SR, Graff CA, Morton DC, Ott LE, Foufoula-Georgio E, Smyth P, Goulden M, Randerson JT. 2022. California wildfire spread derived using VIIRS satellite observations and an object-based tracking system. Scientific Data, 9: 249. https://doi.org/10.1038/s41597-022-01343-0
+
+Additional Information:
+https://earth-information-system.github.io/fireatlas/docs/
+https://www.ess.uci.edu/~uci-nasa-firetracking/
+
+Orbit paths
+Aqua ascending / day
+Temporal coverage: 02 July 2002 - Present
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The Aqua - Orbit Track & Time (Ascending/Day) layer is the path of the Aqua satellite on its ascending/day-time orbit. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator has drifted to ~14:30 as the satellite has reached end-of-life and is continuing to drift.
+
+Orbital Track information from https://www.space-track.org/.
+
+Aqua descending / night
+Temporal coverage: 02 July 2002 - Present
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The Aqua Orbital Track & Overpass Time (Descending/Night) layer is the path of the Aqua satellite on its descending/night-time orbit. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator has drifted to ~00:30 as the satellite has reached end-of-life and is continuing to drift.
+
+Orbital Track information from https://www.space-track.org/.
+
+Landsat 8 ascending / night
+Temporal coverage: 11 February 2013 - Present
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The Landsat 8 - Orbit Track & Time (Ascending/Night) layer is the path of the Landsat 8 satellite on its ascending/night-time orbit. Overpass times are shown in Coordinated Universal Time (UTC). Landsat 8 is on a sun-synchronous orbit at an altitude of 705 km (438 mi).
+
+Orbital Track information from https://www.space-track.org/.
+
+Landsat 8 descending / day
+Temporal coverage: 11 February 2013 - Present
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The Landsat 8 - Orbit Track & Time (Descending/Day) layer is the path of the Landsat 8 satellite on its descending/day-time orbit. Overpass times are shown in Coordinated Universal Time (UTC). Landsat 8 is on a sun-synchronous orbit from north to south at an altitude of 705 km (438 mi) with an equatorial crossing time of 10:11 a.m. +/- 15 minutes mean local time on each pass to provide maximum illumination with minimum water vapor (haze and cloud build-up).
+
+Orbital Track information from https://www.space-track.org/.
+
+Landsat 9 ascending / night
+Temporal coverage: 27 September 2021 - Present
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The Landsat 9 - Orbit Track & Time (Ascending/Night) layer is the path of the Landsat 9 satellite on its ascending/night-time orbit. Overpass times are shown in Coordinated Universal Time (UTC). Landsat 9 is on a sun-synchronous orbit at an altitude of 705 km (438 mi).
+
+Orbital Track information from https://www.space-track.org/.
+
+Landsat 9 descending / day
+Temporal coverage: 27 September 2021 - Present
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The Landsat 9 - Orbit Track & Time (Descending/Day) layer is the path of the Landsat 9 satellite on its descending/day-time orbit. Overpass times are shown in Coordinated Universal Time (UTC). Landsat 9 is on a sun-synchronous orbit from north to south at an altitude of 705 km (438 mi) with an equatorial crossing time of 10:00 a.m. +/- 15 minutes mean local time on each pass to provide maximum illumination with minimum water vapor (haze and cloud build-up).
+
+Orbital Track information from https://www.space-track.org/.
+
+NOAA-20 ascending / day
+Temporal coverage: 18 November 2017 - Present
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The NOAA-20 - Orbit Track & Time (Descending/Night) layer is the path of the NOAA-20 satellite on its descending/night-time orbit. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator is approximately 00:30.
+
+Orbital Track information from https://www.space-track.org/.
+
+NOAA-20 descending / night
+Temporal coverage: 18 November 2017 - Present
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The NOAA-20 - Orbit Track & Time (Descending/Night) layer is the path of the NOAA-20 satellite on its descending/night-time orbit. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator is approximately 00:30.
+
+Orbital Track information from https://www.space-track.org/.
+
+NOAA-21 ascending / day
+Temporal coverage: 10 November 2022 - Present
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The NOAA-21 - Orbit Track & Time (Descending/Night) layer is the path of the NOAA-21 satellite on its descending/night-time orbit. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator is approximately 01:30.
+
+Orbital Track information from https://www.space-track.org/.
+
+NOAA-21 descending / night
+Temporal coverage: 10 November 2022 - Present
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The NOAA-21 - Orbit Track & Time (Descending/Night) layer is the path of the NOAA-21 satellite on its descending/night-time orbit. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator is approximately 01:30.
+
+Orbital Track information from https://www.space-track.org/.
+
+Sentinel 2A descending / day
+Temporal coverage: 23 June 2014 - Present
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The Sentinel-2A Orbital Track & Overpass Time (Descending/Day) layer is the path of the Sentinel-2A satellite on its descending/day-time orbit. Overpass times are shown in Coordinated Universal Time (UTC).
+
+Orbital Track information from https://www.space-track.org/.
+
+Sentinel 2B descending / day
+Temporal coverage: 23 June 2014 - Present
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The Sentinel-2B Orbital Track & Overpass Time (Descending/Day) layer is the path of the Sentinel-2B satellite on its descending/day-time orbit. Overpass times are shown in Coordinated Universal Time (UTC).
+
+Orbital Track information from https://www.space-track.org/.
+
+Sentinel 2C descending / day
+Temporal coverage: 05 September 2024 - Present
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The Sentinel-2C Orbital Track & Overpass Time (Descending/Day) layer is the path of the Sentinel-2C satellite on its descending/day-time orbit. Overpass times are shown in Coordinated Universal Time (UTC).
+
+Orbital Track information from https://www.space-track.org/.
+
+Suomi NPP ascending / day
+Temporal coverage: 28 October 2011 - Present
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The Suomi NPP Orbital Track & Overpass Time (Descending/Night) layer is the path of the Suomi National Polar-orbiting Partnership (Suomi NPP) satellite on its descending/night-time orbit. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator is approximately 01:30.
+
+Orbital Track information from https://www.space-track.org/.
+
+Suomi NPP descending / night
+Temporal coverage: 28 October 2011 - Present
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The Suomi NPP Orbital Track & Overpass Time (Descending/Night) layer is the path of the Suomi National Polar-orbiting Partnership (Suomi NPP) satellite on its descending/night-time orbit. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator is approximately 01:30.
+
+Orbital Track information from https://www.space-track.org/.
+
+Terra ascending / night
+Temporal coverage: 18 December 1999 - Present
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The Terra Orbital Track & Overpass Time (Ascending/Night) layer is the path of the Terra satellite on its ascending/night-time orbit. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator has drifted to ~21:30 as the satellite has reached end-of-life and is continuing to drift.
+
+Orbital Track information from https://www.space-track.org/.
+
+Terra descending / day
+Temporal coverage: 18 December 1999 - Present
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The Terra Orbital Track & Overpass Time (Descending/Day) layer is the path of the Terra satellite on its descending/day-time orbit. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator has drifted to ~09:30 as the satellite has reached end-of-life and is continuing to drift.
+
+Orbital Track information from https://www.space-track.org/.
+
+Swath/Granuale Outlines
+Landsat 8 - Descending / Day
+Temporal Coverage: 11 April 2013 - Present
+The HLS Landsat granule outline layer is the path of the Operational Land Imager (OLI) sensor aboard the joint NASA/USGS Landsat 8 and Landsat 9 satellites on their descending/day-time orbit. Unlike time-segmented swath products, the Harmonized Landsat Sentinel-2 (HLS) granules are gridded tiles produced at 30 meter (m) spatial resolution in the Military Grid Reference System (MGRS), with each tile covering a 110 km x 110 km area. Adjacent tiles from consecutive orbits may overlap by a variable degree; this is a function of both latitude and the swath width of the OLI instrument. Each granule represents a single MGRS tile captured during a daytime overpass. Overpass times are shown in Coordinated Universal Time (UTC). Local descending overpass time at the equator is approximately 10:00 for Landsat 8 and 10:30 for Landsat 9.
+
+The data in this layer is based on the NASA Common Metadata Repository (CMR) granule representation from this product, HLS Landsat Operational Land Imager Surface Reflectance and TOA Brightness Daily Global 30 m v2.0. Click on a granule in this layer to see information about that particular granule.
+
+Note that this data is provided by NASA CMR without any modification. See Earthdata for information about data integrity.
+
+Landsat 9 - Descending / Day
+Temporal Coverage: 11 April 2013 - Present
+The HLS Landsat granule outline layer is the path of the Operational Land Imager (OLI) sensor aboard the joint NASA/USGS Landsat 8 and Landsat 9 satellites on their descending/day-time orbit. Unlike time-segmented swath products, the Harmonized Landsat Sentinel-2 (HLS) granules are gridded tiles produced at 30 meter (m) spatial resolution in the Military Grid Reference System (MGRS), with each tile covering a 110 km x 110 km area. Adjacent tiles from consecutive orbits may overlap by a variable degree; this is a function of both latitude and the swath width of the OLI instrument. Each granule represents a single MGRS tile captured during a daytime overpass. Overpass times are shown in Coordinated Universal Time (UTC). Local descending overpass time at the equator is approximately 10:00 for Landsat 8 and 10:30 for Landsat 9.
+
+The data in this layer is based on the NASA Common Metadata Repository (CMR) granule representation from this product, HLS Landsat Operational Land Imager Surface Reflectance and TOA Brightness Daily Global 30 m v2.0. Click on a granule in this layer to see information about that particular granule.
+
+Note that this data is provided by NASA CMR without any modification. See Earthdata for information about data integrity.
+
+Landsat 8 - Ascending / Night
+Temporal Coverage: 11 April 2013 - Present
+The HLS Landsat granule outline layer is the path of the Operational Land Imager (OLI) sensor aboard the joint NASA/USGS Landsat 8 and Landsat 9 satellites on their descending/day-time orbit. Unlike time-segmented swath products, the Harmonized Landsat Sentinel-2 (HLS) granules are gridded tiles produced at 30 meter (m) spatial resolution in the Military Grid Reference System (MGRS), with each tile covering a 110 km x 110 km area. Adjacent tiles from consecutive orbits may overlap by a variable degree; this is a function of both latitude and the swath width of the OLI instrument. Each granule represents a single MGRS tile captured during a daytime overpass. Overpass times are shown in Coordinated Universal Time (UTC). Local descending overpass time at the equator is approximately 10:00 for Landsat 8 and 10:30 for Landsat 9.
+
+There is no active fire data for the night-time/ascending orbit on Landsat. Therefore this layer is used as a placeholder for the swath outline, to show the orbit tracks.
+
+No data will show up as it does for the rest of the layers!
+
+The data in this layer is based on the NASA Common Metadata Repository (CMR) granule representation from this product, HLS Landsat Operational Land Imager Surface Reflectance and TOA Brightness Daily Global 30 m v2.0. Click on a granule in this layer to see information about that particular granule.
+
+Note that this data is provided by NASA CMR without any modification. See Earthdata for information about data integrity.
+
+Landsat 9 - Ascending / Night
+Temporal Coverage: 11 April 2013 - Present
+The HLS Landsat granule outline layer is the path of the Operational Land Imager (OLI) sensor aboard the joint NASA/USGS Landsat 8 and Landsat 9 satellites on their descending/day-time orbit. Unlike time-segmented swath products, the Harmonized Landsat Sentinel-2 (HLS) granules are gridded tiles produced at 30 meter (m) spatial resolution in the Military Grid Reference System (MGRS), with each tile covering a 110 km x 110 km area. Adjacent tiles from consecutive orbits may overlap by a variable degree; this is a function of both latitude and the swath width of the OLI instrument. Each granule represents a single MGRS tile captured during a daytime overpass. Overpass times are shown in Coordinated Universal Time (UTC). Local descending overpass time at the equator is approximately 10:00 for Landsat 8 and 10:30 for Landsat 9.
+
+There is no active fire data for the night-time/ascending orbit on Landsat. Therefore this layer is used as a placeholder for the swath outline, to show the orbit tracks.
+
+No data will show up as it does for the rest of the layers!
+
+The data in this layer is based on the NASA Common Metadata Repository (CMR) granule representation from this product, HLS Landsat Operational Land Imager Surface Reflectance and TOA Brightness Daily Global 30 m v2.0. Click on a granule in this layer to see information about that particular granule.
+
+Note that this data is provided by NASA CMR without any modification. See Earthdata for information about data integrity.
+
+Sentinel 2A - Descending / Day
+Temporal Coverage: 28 November 2015 - Present
+The HLS Sentinel-2 granule outline layer is the path of the Multi-Spectral Instrument (MSI) sensor aboard Europe's Copernicus Sentinel-2A, Sentinel-2B, and Sentinel-2C satellites on their descending/day-time orbit. Unlike time-segmented swath products, the Harmonized Landsat Sentinel-2 (HLS) granules are gridded tiles produced at 30 meter (m) spatial resolution in the Military Grid Reference System (MGRS), with each tile covering a 110 km x 110 km area. Adjacent tiles from consecutive orbits may overlap by a variable degree; this is a function of both latitude and the swath width of the MSI instrument. Each granule represents a single MGRS tile captured during a daytime overpass. Overpass times are shown in Coordinated Universal Time (UTC). Local descending overpass time at the equator is approximately 10:30.
+
+The data in this layer is based on the NASA Common Metadata Repository (CMR) granule representation from this product, HLS Sentinel-2 Multi-spectral Instrument Surface Reflectance Daily Global 30 m v2.0. Click on a granule in this layer to see information about that particular granule.
+
+Note that this data is provided by NASA CMR without any modification. See Earthdata for information about data integrity.
+
+Sentinel 2B - Descending / Day
+Temporal Coverage: 28 November 2015 - Present
+The HLS Sentinel-2 granule outline layer is the path of the Multi-Spectral Instrument (MSI) sensor aboard Europe's Copernicus Sentinel-2A, Sentinel-2B, and Sentinel-2C satellites on their descending/day-time orbit. Unlike time-segmented swath products, the Harmonized Landsat Sentinel-2 (HLS) granules are gridded tiles produced at 30 meter (m) spatial resolution in the Military Grid Reference System (MGRS), with each tile covering a 110 km x 110 km area. Adjacent tiles from consecutive orbits may overlap by a variable degree; this is a function of both latitude and the swath width of the MSI instrument. Each granule represents a single MGRS tile captured during a daytime overpass. Overpass times are shown in Coordinated Universal Time (UTC). Local descending overpass time at the equator is approximately 10:30.
+
+The data in this layer is based on the NASA Common Metadata Repository (CMR) granule representation from this product, HLS Sentinel-2 Multi-spectral Instrument Surface Reflectance Daily Global 30 m v2.0. Click on a granule in this layer to see information about that particular granule.
+
+Note that this data is provided by NASA CMR without any modification. See Earthdata for information about data integrity.
+
+Sentinel 2C - Descending / Day
+Temporal Coverage: 28 November 2015 - Present
+The HLS Sentinel-2 granule outline layer is the path of the Multi-Spectral Instrument (MSI) sensor aboard Europe's Copernicus Sentinel-2A, Sentinel-2B, and Sentinel-2C satellites on their descending/day-time orbit. Unlike time-segmented swath products, the Harmonized Landsat Sentinel-2 (HLS) granules are gridded tiles produced at 30 meter (m) spatial resolution in the Military Grid Reference System (MGRS), with each tile covering a 110 km x 110 km area. Adjacent tiles from consecutive orbits may overlap by a variable degree; this is a function of both latitude and the swath width of the MSI instrument. Each granule represents a single MGRS tile captured during a daytime overpass. Overpass times are shown in Coordinated Universal Time (UTC). Local descending overpass time at the equator is approximately 10:30.
+
+The data in this layer is based on the NASA Common Metadata Repository (CMR) granule representation from this product, HLS Sentinel-2 Multi-spectral Instrument Surface Reflectance Daily Global 30 m v2.0. Click on a granule in this layer to see information about that particular granule.
+
+Note that this data is provided by NASA CMR without any modification. See Earthdata for information about data integrity.
+
+MODIS Terra - Descending / Day
+Temporal Coverage: 24 February 2000 - Present
+The Terra swath & granule outline layer is the path of the Terra satellite on its descending/day-time orbit. A swath depicts the horizontal width of the Earth's surface (perpendicular to the satellite's orbit track) imaged by the sensor on a single overpass. Adjacent swaths of imagery captured on consecutive orbits may overlap by a variable degree; this is a function of both latitude and the width of the swath. Granules are sections of satellite data segmented by time along a swath for manageable processing and analysis. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator is approximately 10:30.
+
+The data in this layer is based on the NASA Common Metadata Repository (CMR) granule representation from this product, MODIS/Terra Thermal Anomalies/Fire 5-Min L2 Swath 1km V061. Click on a granule in this layer to see information about that particular granule.
+
+Note that this data is provided by NASA CMR without any modification. See Earthdata for information about data integrity.
+
+MODIS Terra - Ascending / Night
+Temporal Coverage: 24 February 2000 - Present
+The Terra swath & granule outline layer is the path of the Terra satellite on its ascending/night-time orbit. A swath depicts the horizontal width of the Earth's surface (perpendicular to the satellite's orbit track) imaged by the sensor on a single overpass. Adjacent swaths of imagery captured on consecutive orbits may overlap by a variable degree; this is a function of both latitude and the width of the swath. Granules are sections of satellite data segmented by time along a swath for manageable processing and analysis. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator is approximately 22:30.
+
+The data in this layer is based on the NASA Common Metadata Repository (CMR) granule representation from this product, MODIS/Terra Thermal Anomalies/Fire 5-Min L2 Swath 1km V061. Click on a granule in this layer to see information about that particular granule.
+
+Note that this data is provided by NASA CMR without any modification. See Earthdata for information about data integrity.
+
+MODIS Aqua - Descending / Day
+Temporal Coverage: 4 July 2002 - Present
+The Aqua swath & granule outline layer is the path of the Aqua satellite on its descending/night-time orbit. A swath depicts the horizontal width of the Earth's surface (perpendicular to the satellite's orbit track) imaged by the sensor on a single overpass. Adjacent swaths of imagery captured on consecutive orbits may overlap by a variable degree; this is a function of both latitude and the width of the swath. Granules are sections of satellite data segmented by time along a swath for manageable processing and analysis. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator is approximately 01:30.
+
+The data in this layer is based on the NASA Common Metadata Repository (CMR) granule representation from this product, MODIS/Aqua Thermal Anomalies/Fire 5-Min L2 Swath 1km V061. Click on a granule in this layer to see information about that particular granule.
+
+Note that this data is provided by NASA CMR without any modification. See Earthdata for information about data integrity.
+
+MODIS Aqua - Ascending / Night
+Temporal Coverage: 4 July 2002 - Present
+The Aqua swath & granule outline layer is the path of the Aqua satellite on its ascending/day-time orbit. A swath depicts the horizontal width of the Earth's surface (perpendicular to the satellite's orbit track) imaged by the sensor on a single overpass. Adjacent swaths of imagery captured on consecutive orbits may overlap by a variable degree; this is a function of both latitude and the width of the swath. Granules are sections of satellite data segmented by time along a swath for manageable processing and analysis. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator is approximately 13:30.
+
+The data in this layer is based on the NASA Common Metadata Repository (CMR) granule representation from this product, MODIS/Aqua Thermal Anomalies/Fire 5-Min L2 Swath 1km V061. Click on a granule in this layer to see information about that particular granule.
+
+Note that this data is provided by NASA CMR without any modification. See Earthdata for information about data integrity.
+
+VIIRS NOAA-20 - Ascending / Day
+Temporal Coverage: 1 January 2018 - Present
+The NOAA-20 swath & granule outline layer is the path of the NOAA-20 (formerly Joint Polar Satellite System-1, JPSS-1) satellite on its ascending/day-time orbit. A swath depicts the horizontal width of the Earth's surface (perpendicular to the satellite's orbit track) imaged by the sensor on a single overpass. Adjacent swaths of imagery captured on consecutive orbits may overlap by a variable degree; this is a function of both latitude and the width of the swath. Granules are sections of satellite data segmented by time along a swath for manageable processing and analysis. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator is approximately 13:30.
+
+The data in this layer is based on the NASA Common Metadata Repository (CMR) granule representation from this product, VIIRS/JPSS1 Active Fires 6-Min L2 Swath 375m V002. Click on a granule in this layer to see information about that particular granule.
+
+Note that this data is provided by NASA CMR without any modification. See Earthdata for information about data integrity.
+
+VIIRS NOAA-20 - Descending / Night
+Temporal Coverage: 1 January 2018 - Present
+The NOAA-20 swath & granule outline layer is the path of the NOAA-20 (formerly Joint Polar Satellite System-1, JPSS-1) satellite on its descending/night-time orbit. A swath depicts the horizontal width of the Earth's surface (perpendicular to the satellite's orbit track) imaged by the sensor on a single overpass. Adjacent swaths of imagery captured on consecutive orbits may overlap by a variable degree; this is a function of both latitude and the width of the swath. Granules are sections of satellite data segmented by time along a swath for manageable processing and analysis. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator is approximately 01:30.
+
+The data in this layer is based on the NASA Common Metadata Repository (CMR) granule representation from this product, VIIRS/JPSS1 Active Fires 6-Min L2 Swath 375m V002. Click on a granule in this layer to see information about that particular granule.
+
+Note that this data is provided by NASA CMR without any modification. See Earthdata for information about data integrity.
+
+VIIRS NOAA-21 - Ascending / Day
+Temporal Coverage: 1 January 2018 - Present
+The NOAA-21 swath & granule outline layer is the path of the NOAA-21 (formerly Joint Polar Satellite System-2, JPSS-2) satellite on its ascending/day-time orbit. A swath depicts the horizontal width of the Earth's surface (perpendicular to the satellite's orbit track) imaged by the sensor on a single overpass. Adjacent swaths of imagery captured on consecutive orbits may overlap by a variable degree; this is a function of both latitude and the width of the swath. Granules are sections of satellite data segmented by time along a swath for manageable processing and analysis. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator is approximately 13:30.
+
+The data in this layer is based on the NASA Common Metadata Repository (CMR) granule representation from this product, VIIRS/JPSS2 Active Fires 6-Min L2 Swath 375m V002. Click on a granule in this layer to see information about that particular granule.
+
+Note that this data is provided by NASA CMR without any modification. See Earthdata for information about data integrity.
+
+VIIRS NOAA-21 - Descending / Night
+Temporal Coverage: 1 January 2018 - Present
+The NOAA-21 swath & granule outline layer is the path of the NOAA-21 (formerly Joint Polar Satellite System-2, JPSS-2) satellite on its descending/night-time orbit. A swath depicts the horizontal width of the Earth's surface (perpendicular to the satellite's orbit track) imaged by the sensor on a single overpass. Adjacent swaths of imagery captured on consecutive orbits may overlap by a variable degree; this is a function of both latitude and the width of the swath. Granules are sections of satellite data segmented by time along a swath for manageable processing and analysis. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator is approximately 01:30.
+
+The data in this layer is based on the NASA Common Metadata Repository (CMR) granule representation from this product, VIIRS/JPSS2 Active Fires 6-Min L2 Swath 375m V002. Click on a granule in this layer to see information about that particular granule.
+
+Note that this data is provided by NASA CMR without any modification. See Earthdata for information about data integrity.
+
+VIIRS SNPP - Ascending / Day
+Temporal Coverage: 17 January 2012 - Present
+The Suomi NPP swath & granule outline layer is the path of the Suomi National Polar-orbiting Partnership (Suomi NPP) satellite on its ascending/day-time orbit. A swath depicts the horizontal width of the Earth's surface (perpendicular to the satellite's orbit track) imaged by the sensor on a single overpass. Adjacent swaths of imagery captured on consecutive orbits may overlap by a variable degree; this is a function of both latitude and the width of the swath for a given satellite sensor. Granules are sections of satellite data segmented by time along a swath for manageable processing and analysis. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator is approximately 13:30.
+
+The data in this layer is based on the NASA Common Metadata Repository (CMR) granule representation from this product, VIIRS/NPP Active Fires 6-Min L2 Swath 375m V002. Click on a granule in this layer to see information about that particular granule.
+
+Note that this data is provided by NASA CMR without any modification. See Earthdata for information about data integrity.
+
+VIIRS SNPP - Descending / Night
+Temporal Coverage: 17 January 2012 - Present
+The Suomi NPP swath & granule outline layer is the path of the Suomi National Polar-orbiting Partnership (Suomi NPP) satellite on its descending/night-time orbit. A swath depicts the horizontal width of the Earth's surface (perpendicular to the satellite's orbit track) imaged by the sensor on a single overpass. Adjacent swaths of imagery captured on consecutive orbits may overlap by a variable degree; this is a function of both latitude and the width of the swath. Granules are sections of satellite data segmented by time along a swath for manageable processing and analysis. Overpass times are shown in Coordinated Universal Time (UTC). Local overpass time at the equator is approximately 01:30.
+
+The data in this layer is based on the NASA Common Metadata Repository (CMR) granule representation from this product, VIIRS/NPP Active Fires 6-Min L2 Swath 375m V002. Click on a granule in this layer to see information about that particular granule.
+
+Note that this data is provided by NASA CMR without any modification. See Earthdata for information about data integrity.
+
+Static Backgrounds
+Blue Marble
+World Imagery (WGS84) provides one meter or better satellite and aerial imagery in many parts of the world and lower resolution satellite imagery worldwide. The map includes 15m TerraColor imagery at small and mid-scales (~1:591M down to ~1:72k) and 2.5m SPOT Imagery (~1:288k to ~1:72k) for the world.
+
+The map features 0.3m resolution imagery in the continental United States and parts of Western Europe from DigitalGlobe.
+Additional DigitalGlobe sub-meter imagery is featured in many parts of the world.
+In the United States, 1 meter or better resolution NAIP imagery is available. In other parts of the world, imagery at different resolutions has been contributed by the GIS User Community. In select communities, very high resolution imagery (to 0.03m) is available down to ~1:280 scale.
+
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+more details 
+
+Firefly
+This layer presents an alternative view of the World Imagery map designed to be used as a neutral imagery basemap, with de-saturated colors, that is useful for overlaying other brightly styled layers. This map is intended to support 'firefly cartography' and other cartographic designs that require a neutral background, with the spatial context and texture of imagery, to contrast with the foreground thematic layers that are designed to capture the users attention.
+
+Content meant to provide spatial context (the basemap) should recede in visual priority, helping to establish the thematic layers that they support (rather than compete with them). There are many ways to sufficiently mute your basemap, but for satellite imagery, de-saturation is a nice option. An image that is all or mostly black and white won't compete as much with the brightly colored thematic data that it supports. With this map, the color of the imagery is mostly removed at the smallest global scales and then gradually re-introduced at the larger scales, where the full detail of the imagery is available.
+
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+more details 
+
+Dark Gray
+This web map provides a detailed vector basemap for the world featuring a neutral background style with minimal colors, labels, and features. It uses WGS84 Geographic, version 2 tiling scheme.
+
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+more details 
+
+Light Gray
+This web map provides a detailed vector basemap for the world featuring a neutral background style with minimal colors, labels, and features. It uses WGS84 Geographic, version 2 tiling scheme.
+
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+more details 
+
+Streets
+This worldwide street map presents highway-level data for the world and street-level data for the United States, Canada, Europe, Southern Africa and elsewhere. This comprehensive street map includes highways, major roads, minor roads, railways, water features, administrative boundaries, cities, parks, and landmarks, overlaid on shaded relief imagery for added context.
+
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+
+The street map was developed by Esri using DeLorme data and NAVTEQ street data. Coverage for street-level data elsewhere in the world includes Mexico (Mexico City only), Russia (Moscow, St. Petersburg only), and Turkey (Istanbul, Ankara only).
+For more information on this map, including the terms of use, visit https://www.arcgis.com/home/item.html?id=8dda0e7b5e2d4fafa80132d59122268c
+
+Topographic
+This layer portrays elevation as an artistic hillshade. The map is designed to be used as a backdrop for topographical, soil, hydro, landcover or other outdoor recreational maps.
+The map was compiled from a variety of sources from several data providers. The basemap has global coverage down to a scale of ~1:72k.
+In the United States, Western Europe, Finland and Norway coverage is provided to ~1:18k.
+Additionally, Netherlands, Denmark, Finland and select areas of the U.S. are provided down to ~1:9k.
+
+This dataset/layer is not maintained by FIRMS. Please use the hyperlink or details provided to determine the source, and for more information on how to contact the source host.
+

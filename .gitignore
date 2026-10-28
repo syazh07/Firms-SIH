@@ -1,0 +1,51 @@
+# .env is intentionally tracked (private repo)
+
+# ---- python / tooling --------------------------------------------------------
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# ---- generated data (rebuild with scripts/run_pipeline.py) ---------------------
+# everything under data/ is derived from FIRMS / OSM / WorldCover, except the two
+# small curated inputs that ARE part of the project.
+data/*
+!data/seed_sites.csv
+!data/incidents.csv
+# --- committed datasets (private repo): downloads that need a login/form, plus caches that are slow to rebuild ---
+!data/raw/
+data/raw/*
+# EOG Nightfire flare survey (Earthdata login, ~21 MB); GEM coal-mine tracker (download form, ~3 MB);
+# FIRMS 5-day windows (~2,200 transactions to refetch, ~80 MB)
+!data/raw/flares/
+!data/raw/gem/
+!data/raw/firms/
+!data/cache/
+data/cache/*
+!data/cache/landcover_cells.parquet
+!data/cache/osm_sites.gpkg
+!data/cache/ne_50m_admin_0_countries.geojson
+!data/cache/india_boundary.gpkg
+!data/cache/wri_power_plants_IND.parquet
+# NOT committed (regenerable in minutes): data/frims_*.gpkg, data/truth/, data/raw/osm/india-latest.osm.pbf (1.6 GB)
+
+# ---- models: JSON reports and the trained model (2 MB) are both committed ----------
+# (nothing ignored under models/)
+
+# ---- logs, archives, scratch ---------------------------------------------------
+*.log
+*.zip
+*.tar.gz
+nohup.out
+
+# ---- OS / editors --------------------------------------------------------------
+.DS_Store
+.idea/
+.vscode/
+*.swp

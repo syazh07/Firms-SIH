@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FRIMS — SIH 26162 jury deck</title>
+<style>
+  :root { --bg:#0b1420; --panel:#101c2b; --line:#24364d; --text:#e6edf5; --muted:#8fa3b8; --accent:#f5c542; --green:#4fd18b; --red:#ff4d4d; --orange:#ff9f1c; --brown:#b5651d; --pink:#ff00c8; --yellow:#f5e663; --blue:#7aa6ff; --purple:#c084fc; }
+  * { box-sizing:border-box; }
+  html, body { margin:0; height:100%; background:var(--bg); color:var(--text); font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  .deck { height:100%; }
+  section.slide { display:none; height:100%; padding:56px 84px; flex-direction:column; justify-content:center; position:relative; }
+  section.slide.active { display:flex; }
+  h1 { font-size:56px; margin:0 0 12px; color:var(--accent); letter-spacing:.5px; }
+  h2 { font-size:38px; margin:0 0 24px; color:var(--accent); }
+  h3 { font-size:22px; margin:18px 0 8px; color:var(--green); text-transform:uppercase; letter-spacing:.5px; }
+  p, li { font-size:24px; line-height:1.45; }
+  li { margin:6px 0; }
+  .sub { color:var(--muted); font-size:26px; }
+  .small { font-size:18px; color:var(--muted); }
+  .cols { display:grid; grid-template-columns:1fr 1fr; gap:36px; }
+  .cols3 { display:grid; grid-template-columns:1fr 1fr 1fr; gap:24px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:18px 22px; }
+  .stat { text-align:center; } .stat b { display:block; font-size:54px; color:#fff; } .stat span { color:var(--muted); font-size:18px; }
+  table { border-collapse:collapse; width:100%; font-size:20px; } th, td { border:1px solid var(--line); padding:8px 12px; text-align:left; } th { color:var(--muted); font-weight:600; background:var(--panel); } td.num { text-align:right; font-variant-numeric:tabular-nums; }
+  .sw { display:inline-block; width:16px; height:16px; border-radius:50%; margin-right:8px; vertical-align:middle; border:1px solid rgba(255,255,255,.4); }
+  .foot { position:absolute; bottom:22px; left:84px; right:84px; display:flex; justify-content:space-between; color:var(--muted); font-size:15px; }
+  .kbd { background:var(--panel); border:1px solid var(--line); border-radius:4px; padding:1px 6px; font-family:monospace; }
+  .quote { border-left:4px solid var(--accent); padding-left:18px; font-size:28px; font-style:italic; color:#fff; }
+  .tag { display:inline-block; background:var(--accent); color:#0b1420; font-weight:700; padding:2px 10px; border-radius:4px; font-size:16px; vertical-align:middle; }
+  svg text { font-family:inherit; }
+  @media print { section.slide { display:flex !important; page-break-after:always; height:100vh; } .foot { display:none; } }
+</style>
+</head>
+<body>
+<div class="deck">
+
+<!-- 1 -->
+<section class="slide active">
+  <div style="font-size:90px">🔥</div>
+  <h1>FRIMS</h1>
+  <p class="sub">AI-based detection and classification of industrial fires and persistent thermal sources<br>using NASA FIRMS, OpenStreetMap and satellite land cover</p>
+  <p class="small">Smart India Hackathon · Problem Statement 26162 · National Technical Research Organisation (NTRO) · Theme: Disaster Management</p>
+  <div class="foot"><span>SIH 26162 — FRIMS</span><span>→ / ← to navigate · P to print</span></div>
+</section>
+
+<!-- 2 -->
+<section class="slide">
+  <h2>The problem</h2>
+  <p class="quote">"Current satellite-based fire monitoring systems such as NASA FIRMS provide thermal anomaly detections but do not distinguish between industrial fires, gas flares, agricultural burning, mining activity and wildfires."</p>
+  <div class="cols" style="margin-top:28px">
+    <div class="card"><h3>Deliverable i</h3><p>Classify and segregate industrial fires from forest and other natural fires.</p></div>
+    <div class="card"><h3>Deliverable ii</h3><p>A GIS solution for storage and visualisation of the output as an overlay over maps.</p></div>
+  </div>
+  <div class="foot"><span>Problem</span><span>2</span></div>
+</section>
+
+<!-- 3 -->
+<section class="slide">
+  <h2>Why it is hard: every hot dot looks the same</h2>
+  <div class="cols3">
+    <div class="card"><h3>What FIRMS gives</h3><p>A point, a time, brightness, fire power, day/night — four passes a day at 375 m.</p></div>
+    <div class="card"><h3>What it does not say</h3><p>Whether it is a stubble fire in Punjab, a wildfire in Uttarakhand, the Jamnagar flare, or Jharia's century-old coal fire.</p></div>
+    <div class="card"><h3>Our observation</h3><p><b style="color:#fff">Nature does not burn in the same spot night after night for weeks. Industry does.</b></p></div>
+  </div>
+  <div class="foot"><span>Problem</span><span>3</span></div>
+</section>
+
+<!-- 4 -->
+<section class="slide">
+  <h2>Our idea: ask three questions about every detection</h2>
+  <div class="cols3">
+    <div class="card"><h3>1 · What is under it?</h3><p>ESA WorldCover 10 m land cover: cropland, forest, bare, built-up, water.</p></div>
+    <div class="card"><h3>2 · What is next to it?</h3><p>44,381 industrial footprints: refineries, steel, power, GEM coal mines, LNG, offshore fields, NASA/EOG Nightfire flares, OSM industrial areas.</p></div>
+    <div class="card"><h3>3 · Does it keep happening?</h3><p>Per 1 km cell and per site: active days in the last 30 / 90 days, night fraction, usual fire power.</p></div>
+  </div>
+  <p style="margin-top:26px">A transparent rule checklist turns the answers into seven classes; an independent ML model trained on NASA's own labels gives a second opinion.</p>
+  <div class="foot"><span>Approach</span><span>4</span></div>
+</section>
+
+<!-- 5 -->
+<section class="slide">
+  <h2>Architecture</h2>
+  <svg viewBox="0 0 1200 420" width="100%" height="420" role="img" aria-label="FRIMS architecture">
+    <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8fa3b8"/></marker></defs>
+    <g font-size="17" fill="#e6edf5">
+      <rect x="20" y="30" width="230" height="64" rx="8" fill="#101c2b" stroke="#24364d"/><text x="135" y="56" text-anchor="middle">NASA FIRMS API</text><text x="135" y="80" text-anchor="middle" fill="#8fa3b8" font-size="14">VIIRS ×3, MODIS · NRT + SP</text>
+      <rect x="20" y="120" width="230" height="64" rx="8" fill="#101c2b" stroke="#24364d"/><text x="135" y="146" text-anchor="middle">Industrial sites</text><text x="135" y="170" text-anchor="middle" fill="#8fa3b8" font-size="14">seed · WRI · GEM mines · Nightfire · OSM (44k)</text>
+      <rect x="20" y="210" width="230" height="64" rx="8" fill="#101c2b" stroke="#24364d"/><text x="135" y="236" text-anchor="middle">ESA WorldCover</text><text x="135" y="260" text-anchor="middle" fill="#8fa3b8" font-size="14">10 m land cover, tile overviews</text>
+      <rect x="20" y="300" width="230" height="64" rx="8" fill="#101c2b" stroke="#24364d"/><text x="135" y="326" text-anchor="middle">Natural Earth</text><text x="135" y="350" text-anchor="middle" fill="#8fa3b8" font-size="14">India clip + 200 km offshore</text>
+
+      <rect x="330" y="120" width="190" height="154" rx="8" fill="#0f3b26" stroke="#2b6b45"/><text x="425" y="160" text-anchor="middle" font-weight="700">Ingest</text><text x="425" y="188" text-anchor="middle" fill="#8fa3b8" font-size="14">rate-limit guard</text><text x="425" y="208" text-anchor="middle" fill="#8fa3b8" font-size="14">window cache</text><text x="425" y="228" text-anchor="middle" fill="#8fa3b8" font-size="14">clip · normalise</text>
+      <rect x="560" y="120" width="190" height="154" rx="8" fill="#0f3b26" stroke="#2b6b45"/><text x="655" y="160" text-anchor="middle" font-weight="700">Features</text><text x="655" y="188" text-anchor="middle" fill="#8fa3b8" font-size="14">1 km grid</text><text x="655" y="208" text-anchor="middle" fill="#8fa3b8" font-size="14">rolling 30/90 d persistence</text><text x="655" y="228" text-anchor="middle" fill="#8fa3b8" font-size="14">site proximity · land cover</text>
+      <rect x="790" y="120" width="190" height="154" rx="8" fill="#0f3b26" stroke="#2b6b45"/><text x="885" y="160" text-anchor="middle" font-weight="700">Classify</text><text x="885" y="188" text-anchor="middle" fill="#8fa3b8" font-size="14">rule checklist (7 classes)</text><text x="885" y="208" text-anchor="middle" fill="#8fa3b8" font-size="14">source registry + anomalies</text><text x="885" y="228" text-anchor="middle" fill="#8fa3b8" font-size="14">ML second opinion</text>
+      <rect x="1020" y="30" width="160" height="90" rx="8" fill="#101c2b" stroke="#24364d"/><text x="1100" y="66" text-anchor="middle">GeoPackage</text><text x="1100" y="90" text-anchor="middle" fill="#8fa3b8" font-size="14">opens in QGIS</text>
+      <rect x="1020" y="150" width="160" height="90" rx="8" fill="#101c2b" stroke="#24364d"/><text x="1100" y="186" text-anchor="middle">FastAPI</text><text x="1100" y="210" text-anchor="middle" fill="#8fa3b8" font-size="14">GeoJSON · alerts · eval</text>
+      <rect x="1020" y="270" width="160" height="90" rx="8" fill="#101c2b" stroke="#24364d"/><text x="1100" y="306" text-anchor="middle">Leaflet map UI</text><text x="1100" y="330" text-anchor="middle" fill="#8fa3b8" font-size="14">works offline</text>
+      <g stroke="#8fa3b8" stroke-width="2" fill="none" marker-end="url(#a)">
+        <path d="M250,62 C300,62 300,150 330,150"/><path d="M250,152 L330,152"/><path d="M250,242 C300,242 300,200 330,200"/><path d="M250,332 C300,332 300,250 330,250"/>
+        <path d="M520,197 L560,197"/><path d="M750,197 L790,197"/>
+        <path d="M980,180 C1000,180 1000,75 1020,75"/><path d="M980,197 L1020,197"/><path d="M980,214 C1000,214 1000,315 1020,315"/>
+      </g>
+    </g>
+    <text x="600" y="405" text-anchor="middle" fill="#8fa3b8" font-size="15">Python 3.12 · geopandas · rasterio · scikit-learn · FastAPI · Leaflet — no database server, no build step, runs on a laptop or air-gapped</text>
+  </svg>
+  <div class="foot"><span>Architecture</span><span>5</span></div>
+</section>
+
+<!-- 6 -->
+<section class="slide">
+  <h2>The rule checklist (first match wins)</h2>
+  <table>
+    <tr><th>#</th><th>Evidence</th><th>Class</th></tr>
+    <tr><td>1</td><td>inside a known volcano</td><td><span class="sw" style="background:var(--purple)"></span>volcano</td></tr>
+    <tr><td>2</td><td>refinery / oil-gas / LNG site · mostly night · hot ≥ 10 of last 90 days</td><td><span class="sw" style="background:var(--orange)"></span>gas flare</td></tr>
+    <tr><td>3</td><td>coalfield / mine / quarry · persistent</td><td><span class="sw" style="background:var(--brown)"></span>mining thermal</td></tr>
+    <tr><td>4</td><td>any named industrial site · persistent</td><td><span class="sw" style="background:var(--red)"></span>industrial – persistent source</td></tr>
+    <tr><td>5</td><td>inside a named site but <b>not</b> persistent — or hotter than the site ever is (≥ 4σ)</td><td><span class="sw" style="background:var(--pink)"></span><b>industrial fire — ALERT</b></td></tr>
+    <tr><td>6</td><td>persistent, no site on record</td><td><span class="sw" style="background:var(--red)"></span>unmapped persistent source</td></tr>
+    <tr><td>7</td><td>cropland · daytime · seen ≤ 3 days</td><td><span class="sw" style="background:var(--yellow)"></span>agricultural burning</td></tr>
+    <tr><td>8</td><td>forest / shrub / grassland</td><td><span class="sw" style="background:var(--green)"></span>wildfire</td></tr>
+    <tr><td>9</td><td>water / other</td><td><span class="sw" style="background:var(--blue)"></span>other / unclassified</td></tr>
+  </table>
+  <p class="small" style="margin-top:14px">Every threshold is one number in one config file. Every label carries a plain-English explanation ("coalfield site Jharia at 0 m; 54 active days / 90; night fraction 0.77; land cover grassland").</p>
+  <div class="foot"><span>Classification</span><span>6</span></div>
+</section>
+
+<!-- 7 -->
+<section class="slide">
+  <h2>Validated against NASA's own answer key</h2>
+  <div class="cols">
+    <div>
+      <p>NASA's slower <b>standard-processing</b> product tags each detection: <i>vegetation fire</i> or <i>static land source</i>. We never train on our own rules.</p>
+      <ul>
+        <li>Truth: 2.8 M detections, two VIIRS sensors, Aug 2025 → May 2026</li>
+        <li>Rules tuned + ML trained on <b>Nov–Dec 2025</b></li>
+        <li>Tested on <b>Jan–May 2026</b> — 1.49 M detections it never saw</li>
+        <li>ML = gradient-boosted trees on 21 features; strongest signals: active days, night fraction, site persistence</li>
+      </ul>
+    </div>
+    <div>
+      <table>
+        <tr><th>Jan–May 2026 hold-out</th><th>Recall</th><th>Precision</th><th>F1</th><th>Acc.</th></tr>
+        <tr><td>Rules — industrial source</td><td class="num"><b>98.6 %</b></td><td class="num">79.8 %</td><td class="num"><b>88.2 %</b></td><td class="num">97.3 %</td></tr>
+        <tr><td>ML — industrial source</td><td class="num"><b>97.7 %</b></td><td class="num">78.7 %</td><td class="num"><b>87.2 %</b></td><td class="num">98.2 %</td></tr>
+        <tr><td><b>Combined (rules + ML veto)</b></td><td class="num"><b>97.9 %</b></td><td class="num"><b>81.2 %</b></td><td class="num"><b>88.7 %</b></td><td class="num">97.3 %</td></tr>
+        <tr><td>Rules — natural fire</td><td class="num">97.2 %</td><td class="num">99.9 %</td><td class="num">98.5 %</td><td class="num"></td></tr>
+      </table>
+      <p class="small" style="margin-top:12px">We find ~98 % of confirmed industrial sources; ~19 % of our "industrial" calls are transient fires near industrial land — the cost we chose to pay for recall. NASA's own labels are inconsistent in a quarter of those cells, so the ceiling is ≈ 92 %.</p>
+    </div>
+  </div>
+  <div class="foot"><span>Validation</span><span>7</span></div>
+</section>
+
+<!-- 8 -->
+<section class="slide">
+  <h2>It works on the places that matter</h2>
+  <div class="cols3">
+    <div class="card stat"><b>102 / 102</b><span>Jamnagar refinery detections → gas flare</span></div>
+    <div class="card stat"><b>2500 / 2513</b><span>Jharia coalfield → mining thermal</span></div>
+    <div class="card stat"><b>785 / 792</b><span>Hazira LNG → gas flare</span></div>
+  </div>
+  <div class="cols3" style="margin-top:24px">
+    <div class="card stat"><b>11,536</b><span>Punjab / Haryana stubble fires, Nov 9–15 2025 → agricultural burning</span></div>
+    <div class="card stat"><b>409</b><span>persistent thermal sources registered, Oct 2025 – May 2026</span></div>
+    <div class="card stat"><b>639</b><span>Barren Island detections → volcano</span></div>
+  </div>
+  <div class="foot"><span>Results</span><span>8</span></div>
+</section>
+
+<!-- 9 -->
+<section class="slide">
+  <h2>Tested on real incidents — including the misses</h2>
+  <div class="cols">
+    <div>
+      <p>14 news-reported industrial incidents (Nov 2025 – Aug 2026), each with a source link, geocoded and checked against what the satellite saw.</p>
+      <div class="cols" style="gap:16px">
+        <div class="card stat"><b>8 / 14</b><span>seen from space</span></div>
+        <div class="card stat"><b>1 + 1</b><span>alert raised · watch-tier hit</span></div>
+      </div>
+    </div>
+    <div>
+      <ul>
+        <li><b style="color:var(--green)">ONGC Mori-5 well blowout</b>, Konaseema, Jan 2026 — burned five days: 14 night detections, all flagged <b>industrial fire</b>.</li>
+        <li><b style="color:var(--orange)">Seen, below alert grade</b>: Vizag Steel ladle explosion (19.8 MW), Mumbai High platform fire (caught by the watch tier) — inside complexes that are always hot.</li>
+        <li><b style="color:var(--muted)">Invisible</b>: six short daytime or indoor events — 375 m pixels, four passes a day.</li>
+      </ul>
+      <p class="small">Lesson we act on: the site database, not the detector, limits alert recall.</p>
+    </div>
+  </div>
+  <div class="foot"><span>Results</span><span>9</span></div>
+</section>
+
+<!-- 10 -->
+<section class="slide">
+  <h2>Live demo</h2>
+  <ol>
+    <li><b>Live map</b> — last 7 days over India, clipped to the border; class counts in the legend, data age in the header.</li>
+    <li><b>Switch dataset → Nov 2025</b>, window end 15 Nov: Punjab turns yellow (stubble burning) while Jharia, Jamnagar, Hazira stay industrial.</li>
+    <li><b>Click the Jharia ring</b> → persistent-source card: 84 active days of 90, night fraction 0.77, FRP sparkline.</li>
+    <li><b>Incident table</b> → click ONGC Mori-5 → map jumps to the blowout; popup shows label, evidence, ML probability.</li>
+    <li><b>Model tab</b> → confusion matrices vs NASA truth.</li>
+    <li><b>QGIS</b> → open <span class="kbd">data/frims_live.gpkg</span>: the same layers, deliverable ii.</li>
+  </ol>
+  <p class="small">Everything runs on this laptop; if the venue has no internet the map falls back to an offline basemap automatically.</p>
+  <div class="foot"><span>Demo</span><span>10</span></div>
+</section>
+
+<!-- 11 -->
+<section class="slide">
+  <h2>Efficient by design</h2>
+  <div class="cols3">
+    <div class="card stat"><b>14 %</b><span>peak use of the FIRMS 5000-transaction budget; 100 % cache hits afterwards</span></div>
+    <div class="card stat"><b>35 k / s</b><span>detections classified per second (1.18 M in 34 s)</span></div>
+    <div class="card stat"><b>82 s</b><span>to extract 43,369 industrial sites from the OSM India file</span></div>
+  </div>
+  <div class="cols3" style="margin-top:24px">
+    <div class="card stat"><b>~40 tx</b><span>per 3-hourly refresh</span></div>
+    <div class="card stat"><b>0</b><span>servers required — GeoPackage + FastAPI + Leaflet, offline-capable</span></div>
+    <div class="card stat"><b>17</b><span>automated tests · full reproducibility from a MAP_KEY</span></div>
+  </div>
+  <div class="foot"><span>Engineering</span><span>11</span></div>
+</section>
+
+<!-- 12 -->
+<section class="slide">
+  <h2>From India to the world</h2>
+  <div class="cols">
+    <div>
+      <h3>Scale numbers</h3>
+      <ul>
+        <li>Global: 100–500 k detections/day, 50–150 M/year</li>
+        <li>Our pipeline: one day of global data in ~15 s; a year in ~1 h</li>
+        <li>Storage: ~40–60 GB/year</li>
+      </ul>
+      <h3>Same code, production plumbing</h3>
+      <ul>
+        <li>PostGIS + incremental daily rollups</li>
+        <li>Global Energy Monitor + VIIRS Nightfire flare catalogue as the site layer</li>
+        <li>Vector tiles + MapLibre; workers + Redis cache</li>
+        <li>On-prem / air-gapped deployable</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Honest limits</h3>
+      <ul>
+        <li>FIRMS latency ~3 h; geostationary (INSAT-3D / MSG-IODC) needs a direct feed</li>
+        <li>375 m pixels miss short or indoor fires</li>
+        <li>Alerts inside always-hot plants need per-source adaptive thresholds — to be validated on <i>new</i> incidents</li>
+        <li>Site database completeness is the lever</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot"><span>Scale &amp; next</span><span>12</span></div>
+</section>
+
+<!-- 13 -->
+<section class="slide">
+  <h2>Summary</h2>
+  <ul>
+    <li><span class="tag">i</span> Industrial vs natural segregation: <b>98 % recall, 89 % F1</b> against NASA's independent labels on 1.5 M unseen detections; seven explainable classes plus an independent ML opinion.</li>
+    <li><span class="tag">ii</span> GIS storage (GeoPackage, opens in QGIS) and an interactive overlay with persistent-source registry, alerts, playback and offline mode.</li>
+    <li>Validated on real incidents, with the misses reported, not hidden.</li>
+    <li>Runs on a laptop today; a clear path to a global, on-prem deployment.</li>
+  </ul>
+  <p class="sub" style="margin-top:30px">Thank you — questions?</p>
+  <div class="foot"><span>SIH 26162 — FRIMS</span><span>13</span></div>
+</section>
+
+</div>
+<script>
+  const slides = [...document.querySelectorAll('section.slide')]; let i = 0;
+  function show(n) { slides[i].classList.remove('active'); i = (n + slides.length) % slides.length; slides[i].classList.add('active'); location.hash = i + 1; }
+  document.addEventListener('keydown', e => {
+    if (['ArrowRight', ' ', 'PageDown'].includes(e.key)) show(i + 1);
+    else if (['ArrowLeft', 'PageUp'].includes(e.key)) show(i - 1);
+    else if (e.key === 'Home') show(0); else if (e.key === 'End') show(slides.length - 1);
+    else if (e.key.toLowerCase() === 'p') window.print();
+  });
+  document.addEventListener('click', e => { if (e.clientX > window.innerWidth * 0.7) show(i + 1); else if (e.clientX < window.innerWidth * 0.3) show(i - 1); });
+  const h = parseInt(location.hash.slice(1)); if (h >= 1 && h <= slides.length) show(h - 1);
+</script>
+</body>
+</html>
