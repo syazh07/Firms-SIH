@@ -11,6 +11,7 @@ __pycache__/
 *.egg-info/
 build/
 dist/
+.env/
 
 # ---- generated data (rebuild with scripts/run_pipeline.py) ---------------------
 # everything under data/ is derived from FIRMS / OSM / WorldCover, except the two
